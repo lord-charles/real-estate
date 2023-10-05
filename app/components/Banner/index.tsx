@@ -307,7 +307,7 @@ const Banner = () => {
             <Divider />
 
             <div className="bg-white flex justify-center items-center md:w-[150px]  lg:w-[150px] xxxs:w-[90vw] py-3">
-              <button className="bg-kellygreen rounded-full  h-[50px] cursor-pointer hover:bg-green-400 ">
+              <button className=" h-[50px] cursor-pointer bg-Blueviolet  hover:bg-semiblueviolet  hover:text-white text-Blueviolet font-medium my-2 py-2 px-4 rounded-full">
                 <h2 className="font-semibold text-white text-[16px] text-center px-7 ">
                   Search
                 </h2>

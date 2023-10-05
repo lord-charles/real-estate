@@ -14,16 +14,14 @@ html {
     scroll-behavior: smooth !important;
 }
 
-html:not([data-scroll="0"]) .navbar {
-    position: fixed;
+ .navbar {
+     position: relative;
     top: 0;
     width: 100%;
-    background-color: white !important;
     opacity: 1.9;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
     transition: 0.4s linear;
     padding: 0px !important;
-    z-index: 3;
 }
 
 hr {
