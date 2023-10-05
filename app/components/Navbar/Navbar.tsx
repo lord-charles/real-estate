@@ -54,7 +54,7 @@ const Navbar = () => {
         style={{ backgroundColor: "#eff9f5" }}
       >
         <>
-          <div className="mx-auto max-w-7xl px-6 py-4 lg:px-8 overflow-y-hidden">
+          <div className="mx-auto max-w-7xl px-6 py-4 lg:px-8 ">
             <div className="relative flex h-12 md:h-20 items-center justify-between">
               <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
                 {/* LOGO */}
@@ -105,10 +105,10 @@ const Navbar = () => {
                         </span>
                       </CustomLink>
                     ))}
-                    <div className="">
+                    <div className="z-50">
                       <Menu
                         as="div"
-                        className="relative inline-block text-left"
+                        className="relative inline-block text-left z-[99999]"
                       >
                         <div>
                           <Menu.Button className="flex gap-3 items-center">
