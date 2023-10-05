@@ -49,7 +49,7 @@ export default function HomeListings() {
           </div>
         )}
         {ForSale && ForSale.length > 0 && (
-          <div className="m-2 mb-6 relative top-[40px]">
+          <div className="m-2 mb-9 relative top-[40px]">
             <h2 className="px-3 text-2xl mt-6 font-semibold">
               Places for sale
             </h2>
