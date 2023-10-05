@@ -1,0 +1,409 @@
+
+'use client'
+import Image from "next/image";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Divider, IconButton } from "@mui/material";
+import { Menu, Transition } from "@headlessui/react";
+import { Fragment } from "react";
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
+
+function classNames(...classes: string[]) {
+  return classes.filter(Boolean).join(" ");
+}
+
+const Banner = () => {
+  return (
+    <div
+      id="home-section"
+      className="relative  z-[1] md:h-[35rem] lg:h-[35rem] xxxs:h-auto"
+      style={{ backgroundColor: "#eff9f5" }}
+    >
+      <div className="mx-auto max-w-6xl pt-20 xxxs:pb-24 px-6 z-[99999999]">
+        <div className="absolute bottom-[1vh] z-[-1]">
+          <Image
+            src="/assets/banner/hero.webp"
+            width={1000}
+            height={1000}
+            alt="bg"
+            className=" object-contain w-[1130px]"
+          />
+        </div>
+        <div className="col-span-6 flex flex-col justify-evenly items-center">
+          <div className="flex gap-2 mx-auto lg:mx-0">
+            <Image
+              src="/assets/banner/check.svg"
+              alt="check-image"
+              width={20}
+              height={20}
+            />
+            <h3 className="text-kellygreen text-sm font-semibold text-center lg:text-start">
+              5% Off Your First Stay!
+            </h3>
+          </div>
+          <h1 className="text-midnightblue lg:text-[30px] xxxs:text-[20px]  font-semibold text-center pt-5 font-arial uppercase">
+            For Nakuru house hunting, <br />
+            choose Rift Homes as your ultimate solution.
+          </h1>
+
+          <div className="flex lg:flex-row md:flex-row xxxs:flex-col lg:space-x-[1px] py-4 z-[999999]">
+            <div className="flex justify-between space-x-2 md:w-[110px]  lg:w-[110px] xxxs:w-[90vw] bg-white p-6 cursor-pointer lg:rounded-l-md  md:rounded-l-md  xxxs:rounded-l-none">
+              <div className="">
+                <Menu as="div" className="relative text-left ">
+                  <div>
+                    <Menu.Button className="flex gap-3 items-center xxxs:w-[78vw] md:w-auto lg:w-auto justify-between">
+                      <h2 className="font-semibold block text-black">Buy</h2>
+                      <ExpandMoreIcon />
+                    </Menu.Button>
+                  </div>
+
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[90px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              Buy
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              Sell
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+              </div>
+            </div>
+            <Divider />
+
+            <div className="flex justify-between space-x-2 md:w-[110px]  lg:w-[110px] xxxs:w-[90vw] bg-white p-6 cursor-pointer">
+              <div className="">
+                <Menu as="div" className="relative text-left ">
+                  <div>
+                    <Menu.Button className="flex gap-3 items-center xxxs:w-[78vw] md:w-auto lg:w-auto justify-between">
+                      <h2 className="font-semibold block text-black">Rent</h2>
+                      <ExpandMoreIcon />
+                    </Menu.Button>
+                  </div>
+
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[90px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              Rent
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+              </div>
+            </div>
+            <Divider />
+
+            <div className="flex justify-between space-x-2 md:w-[130px]  lg:w-[130px] xxxs:w-[90vw] bg-white p-6 cursor-pointer">
+              <div className="">
+                <Menu as="div" className="relative text-left ">
+                  <div>
+                    <Menu.Button className="flex gap-3 items-center xxxs:w-[78vw] md:w-auto lg:w-auto justify-between">
+                      <h2 className="font-semibold block text-black">
+                        Location
+                      </h2>
+                      <ExpandMoreIcon />
+                    </Menu.Button>
+                  </div>
+
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[170px] h-[25vh] overflow-scroll origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
+                      <div className="py-1 ">
+                        {locations.map((location, index) => (
+                          <Menu.Item key={index}>
+                            {({ active }) => (
+                              <a
+                                href="#"
+                                className={classNames(
+                                  active
+                                    ? "bg-gray-100 text-gray-900"
+                                    : "text-gray-700",
+                                  "block px-4 py-2 text-sm"
+                                )}
+                              >
+                                {location}
+                              </a>
+                            )}
+                          </Menu.Item>
+                        ))}
+                      </div>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+              </div>
+            </div>
+            <Divider />
+
+            <div className="flex justify-between space-x-2 md:w-[200px]  lg:w-[200px] xxxs:w-[90vw] bg-white p-6 cursor-pointer">
+              <div className="">
+                <Menu as="div" className="relative text-left ">
+                  <div>
+                    <Menu.Button className="flex gap-3 items-center xxxs:w-[78vw] md:w-auto lg:w-auto justify-between">
+                      <h2 className="font-semibold block text-black">
+                        Property Type
+                      </h2>
+                      <ExpandMoreIcon />
+                    </Menu.Button>
+                  </div>
+
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[120px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              Appartment
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+              </div>
+            </div>
+            <Divider />
+
+            <div className="flex justify-between space-x-2 md:w-[120px]  lg:w-[120px] xxxs:w-[90vw] bg-white p-6 cursor-pointer">
+              <div className="">
+                <Menu as="div" className="relative text-left ">
+                  <div>
+                    <Menu.Button className="flex gap-3 items-center xxxs:w-[78vw] md:w-auto lg:w-auto justify-between">
+                      <h2 className="font-semibold block text-black">Budget</h2>
+                      <ExpandMoreIcon />
+                    </Menu.Button>
+                  </div>
+
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[160px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              ksh 3500 - 5000
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              ksh 5000 - 8000
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+              </div>
+            </div>
+            <Divider />
+
+            <div className="bg-white flex justify-center items-center md:w-[150px]  lg:w-[150px] xxxs:w-[90vw] py-3">
+              <IconButton className="bg-kellygreen rounded-full px-7 h-[50px] cursor-pointer hover:bg-green-400">
+                <h2 className="font-semibold text-white text-[16px] text-center">
+                  Search
+                </h2>
+              </IconButton>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between pt-5 lg:pt-4 space-x-5">
+            <div className="flex gap-2">
+              <Image
+                src="/assets/banner/check-circle.svg"
+                alt="check-image"
+                width={30}
+                height={30}
+                className="smallImage"
+              />
+              <p className="text-sm sm:text-lg font-normal text-black text-center">
+                Vacation Ready
+              </p>
+            </div>
+            <div className="flex gap-2">
+              <Image
+                src="/assets/banner/check-circle.svg"
+                alt="check-image"
+                width={30}
+                height={30}
+                className="smallImage"
+              />
+              <p className="text-sm sm:text-lg font-normal text-black text-center">
+                Memorable Stays
+              </p>
+            </div>
+            <div className="flex gap-2">
+              <Image
+                src="/assets/banner/check-circle.svg"
+                alt="check-image"
+                width={30}
+                height={30}
+                className="smallImage"
+              />
+              <p className="text-sm sm:text-lg font-normal text-black text-center">
+                Prime Locations
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Banner;
+
+
+const locations = [
+  "Section 58",
+  "Naka",
+  "Free Area",
+  "Lanet",
+  "Blankets / Hyrax",
+  "Barnabas",
+  "Pipeline",
+  "Mwariki",
+  "Mzee Wanyama",
+  "Mutaita",
+  "Elmentaita",
+  "Mbaruk / Kingdom City",
+  "Kiratina",
+  "White House",
+  "Teachers",
+  "Mawanga",
+  "Heshima",
+  "Maili Sita",
+  "London",
+  "Kiamunyi",
+  "Kabarak",
+  "Mangu",
+  "Shabab",
+  "Kaptembwa",
+  "Kapkures / Ngambo",
+  "Ponda Mali",
+  "Rhonda",
+  "Langalanga",
+  "Racecourse",
+  "Freehold",
+  "Kivumbini",
+  "Ngata",
+  "Soilo",
+  "Bangladesh",
+  "Milimani",
+  "Naivasha",
+  "Gilgil",
+  "Njoro",
+  "Bahati",
+  "Sobea",
+];
+
+
+
