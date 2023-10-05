@@ -122,7 +122,7 @@ export const ForRent = [
     beds: 2,
     sf: 1916,
     bath: 2.5,
-    price: "Ksh19s800",
+    price: "Ksh19800",
     type: "Rent",
     time: "",
     images: [

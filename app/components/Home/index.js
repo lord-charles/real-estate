@@ -20,7 +20,7 @@ export default function HomeListings() {
           <div className="m-2 mb-10">
             <h2 className="px-3 text-2xl mt-6 font-semibold">Recent offers</h2>
             <Link href="">
-              <p className="px-3 text-sm text-blue-600 hover:text-blue-800 transition duration-150 ease-in-out">
+              <p className="px-3 text-sm text-Blueviolet text-[16px] font-medium space-linkshover:text-blue-800 transition duration-150 ease-in-out">
                 Show more offers
               </p>
             </Link>
@@ -37,7 +37,7 @@ export default function HomeListings() {
               Places for rent
             </h2>
             <Link href="">
-              <p className="px-3 text-sm text-blue-600 hover:text-blue-800 transition duration-150 ease-in-out">
+              <p className="px-3 text-sm hover:text-blue-800 transition duration-150 ease-in-out text-Blueviolet text-[16px] font-medium space-links">
                 Show more places for rent
               </p>
             </Link>
@@ -54,7 +54,7 @@ export default function HomeListings() {
               Places for sale
             </h2>
             <Link href="">
-              <p className="px-3 text-sm text-blue-600 hover:text-blue-800 transition duration-150 ease-in-out">
+              <p className="px-3 text-sm text-Blueviolet text-[16px] font-medium space-linkshover:text-blue-800 transition duration-150 ease-in-out">
                 Show more places for sale
               </p>
             </Link>
