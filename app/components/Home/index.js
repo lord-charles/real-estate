@@ -17,7 +17,7 @@ export default function HomeListings() {
     <div>
       <div className="max-w-6xl mx-auto pt-4 space-y-6 relative">
         {RecentOffers.length > 0 && (
-          <div className="m-2 mb-6">
+          <div className="m-2 mb-10">
             <h2 className="px-3 text-2xl mt-6 font-semibold">Recent offers</h2>
             <Link href="">
               <p className="px-3 text-sm text-blue-600 hover:text-blue-800 transition duration-150 ease-in-out">
@@ -32,7 +32,7 @@ export default function HomeListings() {
           </div>
         )}
         {ForRent && ForRent.length > 0 && (
-          <div className="m-2 mb-6">
+          <div className="m-2 relative top-[20px]">
             <h2 className="px-3 text-2xl mt-6 font-semibold">
               Places for rent
             </h2>
@@ -49,7 +49,7 @@ export default function HomeListings() {
           </div>
         )}
         {ForSale && ForSale.length > 0 && (
-          <div className="m-2 mb-6">
+          <div className="m-2 mb-6 relative top-[40px]">
             <h2 className="px-3 text-2xl mt-6 font-semibold">
               Places for sale
             </h2>
