@@ -248,8 +248,12 @@ export default class MultipleItems extends Component {
                         {items.bath}Baths
                       </div>
                       <Divider className="h-[70px] w-[1px] " />
-                      <div className="text-gray-500 relative top-[-4px] text-[15px] text-center">
-                        Beds{items.beds}
+                      <div className="relative top-[-8px]">
+                        <button className=" h-[40px] cursor-pointer bg-Blueviolet  hover:bg-semiblueviolet  hover:text-white text-Blueviolet font-medium px-1 rounded-full">
+                          <h2 className="font-semibold text-white text-[13px] text-center px-3 ">
+                            Details
+                          </h2>
+                        </button>
                       </div>
                     </div>
                   </div>
