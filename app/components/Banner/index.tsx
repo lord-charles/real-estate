@@ -307,11 +307,11 @@ const Banner = () => {
             <Divider />
 
             <div className="bg-white flex justify-center items-center md:w-[150px]  lg:w-[150px] xxxs:w-[90vw] py-3">
-              <IconButton className="bg-kellygreen rounded-full px-7 h-[50px] cursor-pointer hover:bg-green-400">
-                <h2 className="font-semibold text-white text-[16px] text-center">
+              <button className="bg-kellygreen rounded-full  h-[50px] cursor-pointer hover:bg-green-400 ">
+                <h2 className="font-semibold text-white text-[16px] text-center px-7 ">
                   Search
                 </h2>
-              </IconButton>
+              </button>
             </div>
           </div>
 
