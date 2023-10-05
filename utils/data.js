@@ -5,7 +5,7 @@ export const RecentOffers = [
     beds: 3,
     sf: 1916,
     bath: 2.5,
-    price: "ksh15800",
+    price: "15M",
     type: "Buy",
     time: "",
     images: [
@@ -74,8 +74,8 @@ export const RecentOffers = [
     beds: 3,
     sf: 1916,
     bath: 2.5,
-    price: "ksh15800",
-    type: "Buy",
+    price: "ksh11800",
+    type: "Rent",
     time: "",
     images: [
       "https://ap.rdcpix.com/ce533e4b49ad21efb688b8beb0022857l-m1044352207od-w1024_h768_x2.webp",
@@ -229,8 +229,8 @@ export const ForSale = [
     beds: 4,
     sf: 3916,
     bath: 4.5,
-    price: "Ksh19800",
-    type: "B",
+    price: "19.8M",
+    type: "Buy",
     time: "",
     images: [
       "https://ap.rdcpix.com/acd333361fae2bdf425c6375bf3a0353l-m524626311od-w480_h360_x2.webp?w=640&q=75",
