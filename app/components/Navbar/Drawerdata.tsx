@@ -137,15 +137,14 @@ const Data = () => {
                 </Transition>
               </Menu>
             </div>
-            <div className="relative top-[35vh]">
-                     <button className="bg-white w-full text-Blueviolet border border-semiblueviolet font-medium py-2 px-4 rounded">
-              Log In
-            </button>
-            <button className="bg-semiblueviolet w-full hover:bg-Blueviolet hover:text-white text-Blueviolet font-medium my-2 py-2 px-4 rounded">
-              Sign up
-            </button>
+            <div className="relative top-[25vh]">
+              <button className="bg-white w-full text-Blueviolet border border-semiblueviolet font-medium py-2 px-4 rounded">
+                Log In
+              </button>
+              <button className="bg-semiblueviolet w-full hover:bg-Blueviolet hover:text-white text-Blueviolet font-medium my-2 py-2 px-4 rounded">
+                Sign up
+              </button>
             </div>
-     
           </div>
         </div>
       </div>
