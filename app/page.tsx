@@ -5,6 +5,7 @@ import Mentor from "./components/Mentor/index";
 import Testimonials from "./components/Testimonials/index";
 import Newsletter from "./components/Newsletter/Newsletter";
 import HomeListings from "./components/Home/index";
+import { Looking } from "./components/";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       {/* <Companies /> */}
       <Listings />
       <HomeListings />
-      <Mentor />
+      <Looking />
+      {/* <Mentor /> */}
       <Testimonials />
       <Newsletter />
     </main>

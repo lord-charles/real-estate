@@ -36,6 +36,9 @@ hr {
 .underline-links {
     position: relative;
 }
+.font-heading {
+    font-family: Oswald, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
 
 .underline-links::before {
     content: "";

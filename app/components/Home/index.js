@@ -15,7 +15,7 @@ export default function HomeListings() {
   useEffect(() => {}, []);
   return (
     <div>
-      <div className="max-w-6xl mx-auto pt-4 space-y-6 relative">
+      <div className="max-w-6xl mx-auto pt-4  relative">
         {RecentOffers.length > 0 && (
           <div className="m-2 mb-10">
             <h2 className="px-3 text-2xl mt-6 font-semibold">Recent offers</h2>

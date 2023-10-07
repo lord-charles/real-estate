@@ -9,8 +9,8 @@ export default function ListingItem({ listing }) {
         <Image
           className="h-[200px] w-full object-cover hover:scale-105 transition-scale duration-200 ease-in"
           loading="lazy"
-          width={200}
-          height={200}
+          width={400}
+          height={400}
           src={listing.images[0]}
           alt="image"
         />
