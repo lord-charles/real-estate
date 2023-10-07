@@ -16,8 +16,9 @@ const Index = () => {
               layout="fill"
               objectFit="cover"
               sizes="100vw"
+              className="rounded-md"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/30">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/30 rounded-md">
               <h4 className="text-3xl font-bold">150</h4>
               <p className="font-semibold uppercase opacity-90">
                 Independent Homes
@@ -33,8 +34,9 @@ const Index = () => {
               layout="fill"
               objectFit="cover"
               sizes="100vw"
+              className="rounded-md"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/30">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/30 rounded-md">
               <h4 className="text-3xl font-bold">23</h4>
               <p className="font-semibold uppercase opacity-90">Townships</p>
             </div>
@@ -48,8 +50,9 @@ const Index = () => {
               layout="fill"
               objectFit="cover"
               sizes="100vw"
+              className="rounded-md"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/30">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/30 rounded-md">
               <h4 className="text-3xl font-bold">456</h4>
               <p className="font-semibold uppercase opacity-90">
                 Office Spaces
@@ -65,8 +68,9 @@ const Index = () => {
               layout="fill"
               objectFit="cover"
               sizes="100vw"
+              className="rounded-md"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/30">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/30 rounded-md">
               <h4 className="text-3xl font-bold">260</h4>
               <p className="font-semibold uppercase opacity-90">Apartments</p>
             </div>
