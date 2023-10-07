@@ -5,19 +5,20 @@ import Mentor from "./components/Mentor/index";
 import Testimonials from "./components/Testimonials/index";
 import Newsletter from "./components/Newsletter/Newsletter";
 import HomeListings from "./components/Home/index";
-import { Looking } from "./components/";
+import { Looking, FooterBanner } from "./components/";
 
 export default function Home() {
   return (
     <main>
       <Banner />
-      {/* <Companies /> */}
       <Listings />
       <HomeListings />
       <Looking />
       {/* <Mentor /> */}
       <Testimonials />
-      <Newsletter />
+      <FooterBanner />
+      {/* <Newsletter /> */}
+      <Companies />
     </main>
   );
 }
