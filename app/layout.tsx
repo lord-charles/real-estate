@@ -16,11 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="w-screen overflow-x-hidden">
         <Navbar />
         {children}
         <Footer />
       </body>
     </html>
-  )
+  );
 }
