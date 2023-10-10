@@ -46,7 +46,7 @@ const Data = () => {
               </Link>
             ))}
 
-            <div className="relative top-[20vh]">
+            <div className="relative top-[4vh]">
               <button className="bg-white w-full text-Blueviolet border border-semiblueviolet font-medium py-2 px-4 rounded">
                 Log In
               </button>
