@@ -7,7 +7,7 @@ const Agents = () => {
       <div className="bg-bottoms" style={{ backgroundColor: "#eff9f5" }}>
         <div className="relative max-w-6xl pt-16 pb-10 mx-auto md:pt-20">
           <h1 className="text-3xl leading-10 text-center uppercase font-heading">
-            Sara John
+            John smith
           </h1>
         </div>
 
@@ -104,10 +104,10 @@ const Agents = () => {
             </a>
           </div>
           <p className="max-w-3xl mx-auto mt-8 leading-8 text-center text-gray-600">
-            Survived not only five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged. It was popularised in
-            the 1960s with the release of Letraset sheets containing Lorem Ipsum
-            passages.
+            Hello, I&apos;m rifthomes senior Agent, your local real estate
+            expert. I&apos;m here to make your real estate goals a reality.
+            Whether you&apos;re buying or selling, I&apos;ve got you covered.
+            Let&apos;s get started!
           </p>
         </div>
       </div>
