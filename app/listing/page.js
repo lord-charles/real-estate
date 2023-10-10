@@ -23,12 +23,12 @@ export default function PropertyListing() {
             style={{ backgroundImage: 'url("/subhero-bg.jpg")' }}
           ></div>
         </div>
-        <div className="px-6 py-12">
+        <div className="px-2 py-12">
           <div className="max-w-6xl mx-auto">
             <div className="flex">
               <div className="flex-1 hidden md:block"></div>
               <div className="flex-1">
-                <h2 className="text-2xl leading-10 uppercase font-heading">
+                <h2 className="text-xl text-center leading-10 uppercase font-heading">
                   Featured Listing
                 </h2>
               </div>
@@ -325,7 +325,7 @@ export default function PropertyListing() {
                 <div className="flex items-center justify-between p-8">
                   <p className="text-gray-600">Showing 1-9 of 30 results</p>
 
-                  <button className="px-6 py-3 text-red-400 border border-red-400 rounded-full">
+                  <button className="px-4 py-3 text-[14px] text-red border border-red-400 rounded-full">
                     Load More
                   </button>
                 </div>

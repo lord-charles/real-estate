@@ -81,6 +81,8 @@ const Gallery = () => {
               ))}
               {/* End of code block */}
             </div>
+
+            {/* Pagination */}
             <div className="mt-12">
               <div className="flex items-center justify-center space-x-2 md:space-x-5">
                 <button className="flex items-center justify-center w-10 h-10 rounded-md bg-cyan-200 text-cyan-500">
@@ -92,9 +94,9 @@ const Gallery = () => {
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M15 19l-7-7 7-7"
                     />
                   </svg>
@@ -119,17 +121,17 @@ const Gallery = () => {
                 <button className="flex items-center justify-center w-10 h-10 rounded-md bg-cyan-200 text-cyan-500 focus:outline-none">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6"
+                    class="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 5l-7-7 7-7"
-                    />
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M9 5l7 7-7 7"
+                    ></path>
                   </svg>
                 </button>
               </div>
