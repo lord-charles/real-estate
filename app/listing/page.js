@@ -11,7 +11,7 @@ export default function PropertyListing() {
 
   return (
     <main className="flex flex-col flex-1">
-      <div className="pb-20">
+      <div className="pb-0">
         <div className="bg-brand-accent relative">
           <div className="relative max-w-6xl pt-16 pb-10 mx-auto md:pt-20">
             <h1 className="text-3xl leading-10 text-center uppercase font-heading font-semibold">
