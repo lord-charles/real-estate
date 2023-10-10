@@ -13,11 +13,11 @@ const navigation: NavigationItem[] = [
   { name: "Home", href: "/", current: true },
   { name: "Listing", href: "/listing", current: false },
   { name: "Gallery", href: "/gallery", current: false },
-  { name: "contact", href: "#/", current: false },
+  { name: "Contact", href: "/contact", current: false },
 ];
 
 function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 const Data = () => {
@@ -68,8 +68,8 @@ const Data = () => {
                     <div className="py-1">
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#"
+                          <Link
+                            href="/agents"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -78,15 +78,15 @@ const Data = () => {
                             )}
                           >
                             Agents
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                     </div>
                     <div className="py-1">
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#"
+                          <Link
+                            href="blog"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -95,15 +95,15 @@ const Data = () => {
                             )}
                           >
                             Blog
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                     </div>
                     <div className="py-1">
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#"
+                          <Link
+                            href="/faq"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -112,15 +112,15 @@ const Data = () => {
                             )}
                           >
                             FAQ
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                     </div>
                     <div className="py-1">
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#"
+                          <Link
+                            href="/about"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -129,7 +129,7 @@ const Data = () => {
                             )}
                           >
                             About us
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                     </div>
@@ -150,6 +150,6 @@ const Data = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Data;
