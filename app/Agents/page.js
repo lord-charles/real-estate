@@ -140,7 +140,7 @@ const Agents = () => {
                 name="Name"
                 placeholder="Your Name*"
                 required
-                className="w-full py-3 border-gray-300"
+                className="w-full py-3 border-black"
               />
               <input
                 type="email"

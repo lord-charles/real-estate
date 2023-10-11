@@ -268,3 +268,96 @@ export const ForSale = [
     ],
   },
 ];
+
+export const blogs = [
+  {
+    id: 1,
+    date: "20 July 2023",
+    description: "10 Crucial Considerations Before Buying Your Dream Home",
+    image: "/assets/blog/blog1.webp",
+    richDescription:
+      "Purchasing your dream home is a monumental decision. This guide offers an extensive exploration of the ten pivotal factors that should shape your decision-making process. From thoroughly researching your property's location to understanding the nuances of mortgage rates and negotiation tactics, you'll find the knowledge you need here.",
+    points: [
+      "Perform a deep dive into the property's location, assessing proximity to schools, healthcare, and public transportation.",
+      "Craft a comprehensive financial plan, encompassing your down payment, closing costs, and potential renovation expenses.",
+      "Ensure all legal documents, including titles and permits, are in impeccable order, minimizing future legal hassles.",
+      "Prioritize a professional home inspection, uncovering hidden issues that may affect the property's value.",
+      "Dive into the realm of mortgages, exploring fixed-rate vs. adjustable-rate options, and understanding how interest rates affect your monthly payments.",
+    ],
+  },
+  {
+    id: 2,
+    date: "28 July 2023",
+    description: "Achieving Homeownership: Your New Year's Resolutions",
+    image: "/assets/blog/blog2.webp",
+    richDescription:
+      "Welcome the upcoming year with a set of resolutions that will lead you to homeownership. This article outlines five achievable resolutions designed to bring you closer to your dream of buying a home. From developing a concrete savings strategy to navigating the intricate world of credit scores and mortgage pre-approvals, we've got your journey covered.",
+    points: [
+      "Dedicate yourself to a structured savings plan, setting milestones for your down payment, closing costs, and emergency fund.",
+      "Initiate a credit score improvement journey, unlocking better mortgage rates and more favorable loan terms.",
+      "Seek mortgage pre-approval to gain a solid understanding of your financial capacity and the types of properties within your reach.",
+      "Collaborate with a seasoned real estate agent who can provide insights into current market dynamics and negotiate on your behalf.",
+      "Define your long-term homeownership goals and consider essential features for your prospective home, guiding your property search.",
+    ],
+  },
+  {
+    id: 3,
+    date: "2 September 2023",
+    description: "Elevate Your Home's Curb Appeal for a Successful Sale",
+    image: "/assets/blog/blog3.webp",
+    richDescription:
+      "Preparing your home for sale? Enhancing its curb appeal can be the key to a successful transaction. This article furnishes practical and aesthetic advice for making your property irresistible to potential buyers. Elevate your property's visual allure and discover the secrets of a seamless sale.",
+    points: [
+      "Embrace your front yard's transformation with well-planned landscaping and diligent maintenance to create a captivating entry point.",
+      "Consider exterior improvements, from a fresh coat of paint to minor repairs, to heighten your property's overall appeal.",
+      "Master the art of decluttering and depersonalization to allow buyers to envision their future in your space.",
+      "Accentuate your home's unique features and strengths during open houses, creating a strong impression in potential buyers' minds.",
+      "Invest in professional real estate photography to showcase your home's finest attributes and pique buyer interest.",
+    ],
+  },
+  {
+    id: 4,
+    date: "20 September 2023",
+    description: "Crafting a Serene and Joyful Home",
+    image: "/assets/blog/blog4.webp",
+    richDescription:
+      "Your home should be a sanctuary of happiness and comfort. This blog post explores various elements that contribute to your overall well-being in your living space. From advanced organization techniques to the art of personalization and the creation of tranquil zones for relaxation, you'll learn how to craft the perfect space for your unique needs.",
+    points: [
+      "Initiate a comprehensive organizational overhaul, reducing clutter and fostering a peaceful environment for your family.",
+      "Infuse your space with personalization and decor that reflects your individual style and brings you constant joy.",
+      "Architect peaceful retreats within your home, from reading nooks to meditation corners, each designed for rejuvenation and relaxation.",
+      "Engage with the natural world by adding indoor plants, fostering a connection to nature that boosts tranquility and well-being.",
+      "Harness the power of smart home technologies to streamline everyday life, enhance convenience, and reduce energy consumption.",
+    ],
+  },
+  {
+    id: 5,
+    date: "4 October 2023",
+    description: "Reclaiming Your Chaotic Garage: Practical Solutions",
+    image: "/assets/blog/blog5.webp",
+    richDescription:
+      "Is your garage a battleground of clutter? It's time to regain control. This blog post offers practical and achievable strategies to organize your garage, whether it's for the safety of your vehicle or for the creation of a functional workshop. Say goodbye to chaos and hello to a well-ordered space.",
+    points: [
+      "Embark on an initial sorting and decluttering campaign, creating defined categories for your items and enhancing access and order.",
+      "Invest in versatile storage solutions, such as adjustable shelves, durable hooks, and versatile cabinets, making the most of your space.",
+      "Establish a regular maintenance routine to ensure your garage stays clutter-free over time, reducing stress and saving time.",
+      "Designate zones for specific purposes, such as a productive workspace or efficient sports equipment storage, catering to your needs.",
+      "Consider climate control and insulation to transform your garage into a versatile, year-round space for your hobbies and projects.",
+    ],
+  },
+  {
+    id: 6,
+    date: "6 October 2023",
+    description: "Your Oasis Awaits: 7 Innovative Outdoor Ideas",
+    image: "/assets/blog/blog6.webp",
+    richDescription:
+      "You don't have to leave home to experience the great outdoors. This blog post presents seven creative and practical ways to make the most of your outdoor space, whether it's a spacious garden, a cozy balcony, or a compact patio. Discover ideas for relaxation, entertainment, and transforming your outdoor area into an inviting oasis.",
+    points: [
+      "Establish a cozy outdoor seating area with comfortable, weather-resistant furniture, perfect for relaxation and social gatherings.",
+      "Green your outdoor space by initiating a container garden, introducing a burst of greenery, vibrant flowers, and aromatic herbs.",
+      "Extend your outdoor enjoyment into the evening with the addition of atmospheric outdoor lighting, creating a magical ambiance.",
+      "Design an outdoor cooking and dining area for al fresco meals and entertaining guests, elevating your home's entertainment potential.",
+      "Consider the installation of a fire pit or outdoor heating to create a year-round outdoor haven, whether for stargazing or toasting marshmallows.",
+    ],
+  },
+];
