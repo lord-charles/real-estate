@@ -14,7 +14,6 @@ import { FeaturedData } from "@/utils/data";
 
 export default class MultipleItems extends Component {
   render() {
-    const { data } = this.props;
     const settings = {
       dots: false,
       infinite: true,
@@ -66,7 +65,7 @@ export default class MultipleItems extends Component {
           </div>
 
           <Slider {...settings}>
-            {data.map((items, i) => (
+            {FeaturedData.map((items, i) => (
               <div key={i}>
                 <div className="bg-white m-3 px-0 pt-3 pb-12 my-20 shadow-courses rounded-2xl">
                   <div className="relative rounded-3xl">
