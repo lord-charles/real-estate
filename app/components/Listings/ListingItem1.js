@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ListingItem({ listing }) {
   return (
     <li className="relative bg-white flex flex-col justify-between items-center shadow-md hover:shadow-xl rounded-md overflow-hidden transition-shadow duration-150 m-[10px]">
-      <Link href={`/listing/recentdetails/${listing.id}`} className="contents">
+      <Link href={`/listing/forrentdetails/${listing.id}`} className="contents">
         <Image
           className="h-[200px] w-full object-cover hover:scale-105 transition-scale duration-200 ease-in"
           loading="lazy"

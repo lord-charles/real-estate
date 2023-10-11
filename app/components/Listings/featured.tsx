@@ -7,110 +7,8 @@ import { StarIcon } from "@heroicons/react/24/solid";
 import Lottie from "lottie-react";
 import slideanimation from "../../../public/slide.json";
 import { Divider } from "@mui/material";
+import { FeaturedData } from "@/utils/data";
 // CAROUSEL DATA
-
-interface DataType {
-  heading: string;
-  heading2: string;
-  imgSrc: string;
-  name: string;
-  students: number;
-  classes: number;
-  price: string;
-  rating: number;
-  type: string;
-  beds: number;
-  sf: number;
-  bath: number;
-}
-
-const postData: DataType[] = [
-  {
-    heading: "2 BHK Apartment",
-    heading2: "Section 58",
-    name: "Colt stelle",
-    imgSrc: "/assets/listings/l1.webp",
-    students: 150,
-    classes: 12,
-    price: "ksh 8500",
-    rating: 4.9,
-    type: "Rent",
-    bath: 2,
-    sf: 2000,
-    beds: 2,
-  },
-  {
-    heading: "2 BHK Villa",
-    heading2: "Lanet",
-    name: "Colt stelle",
-    imgSrc: "/assets/listings/l2.webp",
-    students: 130,
-    classes: 12,
-    price: "4M",
-    rating: 4.7,
-    type: "Buy",
-    bath: 2,
-    sf: 2000,
-    beds: 2,
-  },
-  {
-    heading: "1BHK Independent House",
-    heading2: "Pipeline",
-    name: "Colt stelle",
-    imgSrc: "/assets/listings/l3.webp",
-    students: 120,
-    classes: 12,
-    price: "ksh 8900",
-    rating: 4.3,
-    type: "Rent",
-    bath: 2,
-    sf: 2000,
-    beds: 2,
-  },
-
-  {
-    heading: "2BHK Apartment",
-    heading2: "Elementaita",
-    name: "Colt stelle",
-    imgSrc: "/assets/listings/l4.webp",
-    students: 150,
-    classes: 12,
-    price: "ksh 9400",
-    rating: 4.5,
-    type: "Rent",
-    bath: 2,
-    sf: 1000,
-    beds: 1,
-  },
-  {
-    heading: "2 BHK Villa",
-    heading2: "White House",
-    name: "Colt stelle",
-    imgSrc: "/assets/listings/l5.webp",
-    students: 150,
-    classes: 12,
-    price: "8M",
-    rating: 4.7,
-    type: "Buy",
-    bath: 2,
-    sf: 2000,
-    beds: 2,
-  },
-  {
-    heading: "2 BHK Villa",
-    heading2: "White House",
-    name: "Colt stelle",
-    imgSrc: "/assets/listings/l6.webp",
-    students: 150,
-    classes: 12,
-    price: "ksh 7400",
-    rating: 4.6,
-    type: "Buy",
-    bath: 2,
-    sf: 1000,
-    beds: 2,
-  },
-];
 
 // CAROUSEL SETTINGS
 
@@ -178,12 +76,12 @@ export default class MultipleItems extends Component {
           </div>
 
           <Slider {...settings}>
-            {postData.map((items, i) => (
+            {FeaturedData.map((items, i) => (
               <div key={i}>
                 <div className="bg-white m-3 px-0 pt-3 pb-12 my-20 shadow-courses rounded-2xl">
                   <div className="relative rounded-3xl">
                     <Image
-                      src={items.imgSrc}
+                      src={items.images[0]}
                       alt="gaby"
                       width={389}
                       height={262}
@@ -248,13 +146,16 @@ export default class MultipleItems extends Component {
                         {items.bath}Baths
                       </div>
                       <Divider className="h-[70px] w-[1px] " />
-                      <div className="relative top-[-8px]">
+                      <Link
+                        href={`/listing/${items.id}`}
+                        className="relative top-[-8px]"
+                      >
                         <button className=" h-[40px] cursor-pointer bg-Blueviolet  hover:bg-semiblueviolet  hover:text-white text-Blueviolet font-medium px-1 rounded-full">
                           <h2 className="font-semibold text-white text-[13px] text-center px-3 ">
                             Details
                           </h2>
                         </button>
-                      </div>
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -2,6 +2,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import ListingItem from "../Listings/ListingItem";
+import ListingItem2 from "../Listings/ListingItem2";
+import ListingItem1 from "../Listings/ListingItem1";
+
 import Link from "next/link";
 import { ForRent, ForSale, RecentOffers } from "../../../utils/data";
 
@@ -43,7 +46,7 @@ export default function HomeListings() {
             </Link>
             <ul className="grid xxxs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
               {ForRent.map((listing, index) => (
-                <ListingItem key={index} listing={listing} />
+                <ListingItem1 key={index} listing={listing} />
               ))}
             </ul>
           </div>
@@ -60,7 +63,7 @@ export default function HomeListings() {
             </Link>
             <ul className="grid xxxs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
               {ForSale.map((listing, index) => (
-                <ListingItem key={index} listing={listing} />
+                <ListingItem2 key={index} listing={listing} />
               ))}
             </ul>
           </div>
