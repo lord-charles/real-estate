@@ -4,6 +4,12 @@
 @tailwind utilities;
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
+@font-face {
+    font-family: 'my-custom-font';
+    src: url('/BreeSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -24,6 +30,9 @@ html {
     padding: 0px !important;
 }
 
+.custom-font-p {
+    font-family: 'my-custom-font', sans-serif;
+}
 hr {
     background: #9BA3B0;
     color: #9BA3B0;
