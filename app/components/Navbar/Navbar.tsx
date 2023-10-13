@@ -64,26 +64,28 @@ const Navbar = () => {
               {/* LOGO */}
 
               <div className="flex flex-shrink-0 items-center">
-                <Image
-                  src={"/assets/logo/realestate2.png"}
-                  alt="Courses-Logo"
-                  width={300}
-                  height={300}
-                  className="block object-contain w-[120px] lg:hidden relative left-[-20px]"
-                  onClick={() => {
-                    setIsOpen(false);
-                  }}
-                />
-                <Image
-                  src={"/assets/logo/realestate2.png"}
-                  alt="Courses-Logo"
-                  width={300}
-                  height={300}
-                  className=" hidden object-contain w-[200px] mt-4 lg:block"
-                  onClick={() => {
-                    setIsOpen(false);
-                  }}
-                />
+                <Link href="/">
+                  <Image
+                    src={"/assets/logo/realestate2.png"}
+                    alt="Courses-Logo"
+                    width={300}
+                    height={300}
+                    className="block object-contain w-[120px] lg:hidden relative left-[-20px]"
+                    onClick={() => {
+                      setIsOpen(false);
+                    }}
+                  />
+                  <Image
+                    src={"/assets/logo/realestate2.png"}
+                    alt="Courses-Logo"
+                    width={300}
+                    height={300}
+                    className=" hidden object-contain w-[200px] mt-4 lg:block"
+                    onClick={() => {
+                      setIsOpen(false);
+                    }}
+                  />
+                </Link>
               </div>
 
               {/* LINKS */}

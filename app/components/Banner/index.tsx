@@ -220,7 +220,7 @@ const Banner = () => {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[120px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
+                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[150px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
                       <div className="py-1">
                         <Menu.Item>
                           {({ active }) => (
@@ -233,7 +233,24 @@ const Banner = () => {
                                 "block px-4 py-2 text-sm"
                               )}
                             >
-                              Appartment
+                              Apartment
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              Own Compound
                             </a>
                           )}
                         </Menu.Item>
@@ -264,7 +281,7 @@ const Banner = () => {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[160px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
+                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[170px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
                       <div className="py-1">
                         <Menu.Item>
                           {({ active }) => (
@@ -277,7 +294,7 @@ const Banner = () => {
                                 "block px-4 py-2 text-sm"
                               )}
                             >
-                              ksh 3500 - 5000
+                              ksh 4,500 - 7,500
                             </a>
                           )}
                         </Menu.Item>
@@ -294,7 +311,75 @@ const Banner = () => {
                                 "block px-4 py-2 text-sm"
                               )}
                             >
-                              ksh 5000 - 8000
+                              ksh 8,000 - 15,000
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              ksh 15,000 - 25,000
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              ksh 25,000 - 35,000
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              ksh 35,000 - 50,000
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              ksh 50,000 -&gt;
                             </a>
                           )}
                         </Menu.Item>
