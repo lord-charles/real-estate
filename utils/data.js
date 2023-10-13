@@ -20,7 +20,7 @@ export const RecentOffers = [
       "https://ap.rdcpix.com/ce533e4b49ad21efb688b8beb0022857l-m3562686673od-w1024_h768_x2.webp",
       "https://ap.rdcpix.com/ce533e4b49ad21efb688b8beb0022857l-m711152565od-w1024_h768_x2.webp",
     ],
-    time: Date.now(),
+    time: Date.now() - 86400000,
     description: "Spacious 3-bedroom townhome in the heart of Mawanga",
     richDescription:
       "Explore this spacious 3-bedroom townhome in the vibrant Mawanga neighborhood. It's an ideal choice for families and working professionals. This modern townhome features three bedrooms, 2.5 bathrooms, and a comfortable living space. Enjoy the convenience of nearby schools, restaurants, and parks.",
@@ -60,7 +60,7 @@ export const RecentOffers = [
       "https://ap.rdcpix.com/5fcd4414a6d07b6903fa5875adca8a5el-m1038767656od-w1024_h768_x2.webp",
       "https://ap.rdcpix.com/5fcd4414a6d07b6903fa5875adca8a5el-m3939008344od-w1024_h768_x2.webp",
     ],
-    time: Date.now() - 86400000,
+    time: Date.now() - 172800000,
     description: "Cozy 3-bedroom single-family home in Barnabas",
     richDescription:
       "Discover this cozy 3-bedroom single-family home located in the peaceful Barnabas neighborhood. The home features three bedrooms, two bathrooms, and a spacious living area. It's a perfect choice for those seeking a comfortable and convenient living environment.",
@@ -96,7 +96,7 @@ export const RecentOffers = [
       "https://ap.rdcpix.com/ce533e4b49ad21efb688b8beb0022857l-m3562686673od-w1024_h768_x2.webp",
       "https://ap.rdcpix.com/ce533e4b49ad21efb688b8beb0022857l-m711152565od-w1024_h768_x2.webp",
     ],
-    time: Date.now(),
+    time: Date.now() - 345600000,
     description: "Spacious 3-bedroom apartment in the heart of Mawanga",
     richDescription:
       "Explore this spacious 3-bedroom apartment in the vibrant Mawanga neighborhood. It's an ideal choice for families and working professionals. This modern apartment features three bedrooms, 2.5 bathrooms, and a comfortable living space. Enjoy the convenience of nearby schools, restaurants, and parks.",
@@ -139,7 +139,7 @@ export const RecentOffers = [
       "https://ap.rdcpix.com/105be3d305365e09b3c946e0ea760be5l-b2173319398od-w1024_h768_x2.webp",
       "https://ap.rdcpix.com/105be3d305365e09b3c946e0ea760be5l-b49076487od-w1024_h768_x2.webp",
     ],
-    time: Date.now() - 172800000,
+    time: Date.now() - 604800000,
     description: "Spacious 4-bedroom single-family home in Blankets / Hyrax",
     richDescription:
       "Experience luxury in this spacious 4-bedroom single-family home situated in the serene Blankets / Hyrax neighborhood. With four bedrooms, two bathrooms, and ample living space, this home provides a comfortable and lavish living experience.",
@@ -183,7 +183,7 @@ export const ForRent = [
       "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f3919670687od-w1024_h768_x2.webp",
       "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f4133983020od-w1024_h768_x2.webp",
     ],
-    time: Date.now(), // Current timestamp
+    time: Date.now() - 86400000, // Current timestamp
     description: "2-Bedroom Townhome in Kaptembwa",
     richDescription:
       "This exquisite 2-bedroom townhome in Kaptembwa offers a serene living experience. With 2.5 bathrooms, a spacious interior, and a modern kitchen, it provides comfort and convenience. Enjoy the tranquility and nearby amenities like schools and parks.",
@@ -376,7 +376,7 @@ export const ForSale = [
       "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m3160044001od-w640_h480_x2.webp?w=640&q=75",
       "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m3924156268od-w640_h480_x2.webp?w=640&q=75",
     ],
-    time: Date.now(), // Current timestamp
+    time: Date.now() - 86400000, // Current timestamp
     description: "3-Bedroom Single-Family Home in Kaptembwa",
     richDescription:
       "This beautiful 3-bedroom single-family home in Kaptembwa offers a tranquil living experience. With 3 bathrooms, a spacious interior, and a well-manicured garden, it provides comfort and convenience. Enjoy the peaceful neighborhood and easy access to schools and parks.",

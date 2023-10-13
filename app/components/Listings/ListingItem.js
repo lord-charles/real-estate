@@ -18,7 +18,7 @@ export default function ListingItem({ listing }) {
           className="absolute top-2 left-2 bg-[#3377cc] text-white uppercase text-xs font-semibold rounded-md px-2 py-1 shadow-lg"
           fromNow
         >
-          {Date.now()}
+          {listing.time}
         </Moment>
         <div className="w-full p-[10px]">
           <h2 className="font-semibold text-lg mb-[4px] text-black truncate">
