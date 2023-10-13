@@ -82,87 +82,11 @@ export default function PropertyListing() {
                         name="type"
                         className="w-full px-6 py-3 mt-4 border-gray-200 rounded-sm"
                       >
-                        <option>Select Property</option>
+                        <option>Appartments</option>
+                        <option>Own Compound</option>
                       </select>
                     </div>
-                    <div>
-                      <h3 className="uppercase font-heading">Price Range</h3>
-                      <div className="mt-5">
-                        <div className="rc-slider rc-slider-horizontal">
-                          <div className="rc-slider-rail"></div>
-                          <div
-                            className="rc-slider-track rc-slider-track-1"
-                            style={{ left: "6%", width: "46.56%" }}
-                          ></div>
-                          <div className="rc-slider-step"></div>
-                          <div
-                            className="rc-slider-handle rc-slider-handle-1"
-                            tabindex="0"
-                            role="slider"
-                            aria-valuemin="0"
-                            aria-valuemax="10000"
-                            aria-valuenow="600"
-                            aria-disabled="false"
-                            style={{
-                              left: "6%",
-                              transform: "translateX(-50%)",
-                            }}
-                          ></div>
-                          <div
-                            className="rc-slider-handle rc-slider-handle-2"
-                            tabindex="0"
-                            role="slider"
-                            aria-valuemin="0"
-                            aria-valuemax="10000"
-                            aria-valuenow="5256"
-                            aria-disabled="false"
-                            style={{
-                              left: "52.56%",
-                              transform: "translateX(-50%)",
-                            }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <h3 className="uppercase font-heading">Floor Space</h3>
-                      <div className="mt-5">
-                        <div className="rc-slider rc-slider-horizontal">
-                          <div className="rc-slider-rail"></div>
-                          <div
-                            className="rc-slider-track rc-slider-track-1"
-                            style={{ left: "6%", width: "46.56%" }}
-                          ></div>
-                          <div className="rc-slider-step"></div>
-                          <div
-                            className="rc-slider-handle rc-slider-handle-1"
-                            tabindex="0"
-                            role="slider"
-                            aria-valuemin="0"
-                            aria-valuemax="10000"
-                            aria-valuenow="600"
-                            aria-disabled="false"
-                            style={{
-                              left: "6%",
-                              transform: "translateX(-50%)",
-                            }}
-                          ></div>
-                          <div
-                            className="rc-slider-handle rc-slider-handle-2"
-                            tabindex="0"
-                            role="slider"
-                            aria-valuemin="0"
-                            aria-valuemax="10000"
-                            aria-valuenow="5256"
-                            aria-disabled="false"
-                            style={{
-                              left: "52.56%",
-                              transform: "translateX(-50%)",
-                            }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
+
                     <div>
                       <h3 className="uppercase font-heading">
                         Number of Bedrooms
@@ -172,21 +96,14 @@ export default function PropertyListing() {
                         name="bedrooms"
                         className="w-full px-6 py-3 mt-4 border-gray-200 rounded-sm"
                       >
-                        <option>Select Bedrooms</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
                       </select>
                     </div>
-                    <div>
-                      <h3 className="uppercase font-heading">
-                        Number of Bathrooms
-                      </h3>
-                      <select
-                        id="bathrooms"
-                        name="bathrooms"
-                        className="w-full px-6 py-3 mt-4 border-gray-200 rounded-sm"
-                      >
-                        <option>Select Bathrooms</option>
-                      </select>
-                    </div>
+
                     <div>
                       <h3 className="uppercase font-heading">Parking</h3>
                       <div className="mt-4 space-y-2">
@@ -323,7 +240,7 @@ export default function PropertyListing() {
                 )}
 
                 <div className="flex items-center justify-between p-8">
-                  <p className="text-gray-600">Showing 1-9 of 30 results</p>
+                  <p className="text-gray-600">Showing 1-9 of 10 results</p>
 
                   <button className="px-4 py-3 text-[14px] text-red border border-red-400 rounded-full">
                     Load More

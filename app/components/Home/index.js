@@ -21,7 +21,7 @@ export default function HomeListings() {
       <div className="max-w-6xl mx-auto pt-4  relative">
         {RecentOffers.length > 0 && (
           <div className="m-2 mb-10">
-            <h2 className="px-3 text-2xl mt-6 font-semibold">Recent offers</h2>
+            <h2 className="px-3 text-2xl mt-6 font-semibold">Upcoming</h2>
             <Link href="">
               <p className="px-3 text-sm text-Blueviolet text-[16px] font-medium space-linkshover:text-blue-800 transition duration-150 ease-in-out">
                 Show more offers

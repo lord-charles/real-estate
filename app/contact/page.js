@@ -43,9 +43,10 @@ const Contact = () => {
                 </svg>
                 <div>
                   <h4 className="text-2xl uppercase font-heading">Address</h4>
-                  <p className="mt-2 leading-8 text-gray-700">
-                    70 Bowman St. <br />
-                    South Windsor, CT 06074
+                  <p className="mt-2 leading-9 text-black">
+                    Atto Digi Mall <br />
+                    2nd Floor, Kiamunyi <br />
+                    Nakuru city
                   </p>
                 </div>
               </div>
@@ -95,10 +96,7 @@ const Contact = () => {
                 </svg>
                 <div>
                   <h4 className="text-2xl uppercase font-heading">CALL US</h4>
-                  <p className="mt-2 leading-8 text-gray-700">
-                    +254740315545 <br />
-                    +254740315545
-                  </p>
+                  <p className="mt-2 leading-8 text-gray-700">+254707422184</p>
                 </div>
               </div>
             </div>
