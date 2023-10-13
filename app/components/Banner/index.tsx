@@ -15,34 +15,28 @@ const Banner = () => {
   return (
     <div
       id="home-section"
-      className="relative  z-[1] md:h-[35rem] lg:h-[35rem] xxxs:h-auto"
-      style={{ backgroundColor: "#eff9f5" }}
+      className="relative  z-[1] md:h-[35rem] lg:h-[50rem] xxxs:h-[48rem]"
+      // style={{ backgroundColor: "#ffd21f" }}
     >
-      <div className="mx-auto max-w-6xl pt-20 xxxs:pb-24 px-6 z-[99999999]">
-        <div className="absolute bottom-[1vh] z-[-1]">
-          <Image
-            src="/assets/banner/hero.webp"
-            width={1000}
-            height={1000}
-            alt="bg"
-            className=" object-contain w-[1130px]"
-          />
-        </div>
-        <div className="col-span-6 flex flex-col justify-evenly items-center">
-          <div className="flex gap-2 mx-auto lg:mx-0">
-            <Image
-              src="/assets/banner/check.svg"
-              alt="check-image"
-              width={20}
-              height={20}
-            />
-            <h3 className="text-kellygreen text-sm font-semibold text-center lg:text-start">
-              5% Off Your First Stay!
-            </h3>
-          </div>
-          <h1 className="text-midnightblue lg:text-[30px] xxxs:text-[20px]  font-semibold text-center pt-5 font-arial uppercase">
-            For Nakuru house hunting, <br />
-            choose Rift Homes as your ultimate solution.
+      <div className="absolute bottom-[1vh] z-[-1]">
+        <Image
+          src="/hero.jpeg"
+          width={3000}
+          height={3000}
+          alt="bg"
+          className=" object-cover w-screen lg:h-[50rem] md:h-[35rem] xxxs:h-[48rem]"
+        />
+      </div>
+      <div className="mx-auto max-w-6xl lg:pt-20 xxxs:pt-5 md:pt-20 xxxs:pb-24 px-6 z-[99999999] relative lg:top-0 md:top-0 xxxs:top-[50px]">
+        <div className="col-span-6 flex flex-col justify-evenly items-center space-y-4 lg:space-y-[80px] ">
+          <h1 className=" lg:text-[40px] xxxs:text-[20px]  font-semibold text-center pt-3 font-arial text-black bg-yellow-400 p-3 rounded-md">
+            RIFT HOMES AND PROPERTY REALTORS <br />
+            <a
+              className="underline font-"
+              // style={{ fontFamily: "Helvetica, sans-serif" }}
+            >
+              The way and the truth
+            </a>
           </h1>
 
           <div className="flex lg:flex-row md:flex-row xxxs:flex-col lg:space-x-[1px] py-4 z-[999999]">
@@ -397,45 +391,6 @@ const Banner = () => {
                   Search
                 </h2>
               </button>
-            </div>
-          </div>
-
-          <div className="flex items-center justify-between pt-5 lg:pt-4 space-x-5">
-            <div className="flex gap-2">
-              <Image
-                src="/assets/banner/check-circle.svg"
-                alt="check-image"
-                width={30}
-                height={30}
-                className="smallImage"
-              />
-              <p className="text-sm sm:text-lg font-normal text-black text-center">
-                Vacation Ready
-              </p>
-            </div>
-            <div className="flex gap-2">
-              <Image
-                src="/assets/banner/check-circle.svg"
-                alt="check-image"
-                width={30}
-                height={30}
-                className="smallImage"
-              />
-              <p className="text-sm sm:text-lg font-normal text-black text-center">
-                Memorable Stays
-              </p>
-            </div>
-            <div className="flex gap-2">
-              <Image
-                src="/assets/banner/check-circle.svg"
-                alt="check-image"
-                width={30}
-                height={30}
-                className="smallImage"
-              />
-              <p className="text-sm sm:text-lg font-normal text-black text-center">
-                Prime Locations
-              </p>
             </div>
           </div>
         </div>

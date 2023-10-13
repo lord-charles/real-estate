@@ -55,7 +55,7 @@ hr {
     height: 5px;
     border-radius: 50px;
     transform: skew(-12deg) translateX(-50%);
-    background: #6556FF;
+    background: #ffd21f;
     z-index: -1;
 }
 

@@ -45,18 +45,13 @@ const Data = () => {
                 {item.name}
               </Link>
             ))}
-
-            <div className="relative top-[4vh]">
-              <button className="bg-white w-full text-Blueviolet border border-semiblueviolet font-medium py-2 px-4 rounded">
-                Log In
-              </button>
-              <button className="bg-semiblueviolet w-full hover:bg-Blueviolet hover:text-white text-Blueviolet font-medium my-2 py-2 px-4 rounded">
-                Sign up
-              </button>
-            </div>
           </div>
         </div>
       </div>
+      <p className="relative top-[30vh] text-base text-gray-400 md:mt-0 md:order-1 xxxs:text-center">
+        rifthomes © 2023 All Rights Reserved.{" "}
+        <a href="https://rifthomes.co.ke/" target="_blank" rel="noopener"></a>
+      </p>
     </div>
   );
 };

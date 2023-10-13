@@ -49,6 +49,44 @@ export default class MultipleItems extends Component {
     return (
       <div id="featured listings">
         <div className="mx-auto max-w-6xl sm:py-8 px-4 lg:px-8  relative">
+          <div className="flex items-center justify-between pt-0 lg:pt-0 space-x-5 lg:mx-[200px] md:mx-[200px] xxxs:mx-[15px] pb-10">
+            <div className="flex gap-2">
+              <Image
+                src="/assets/banner/check-circle.svg"
+                alt="check-image"
+                width={30}
+                height={30}
+                className="smallImage"
+              />
+              <p className="text-sm sm:text-lg font-semibold text-black text-center">
+                Vacation Ready
+              </p>
+            </div>
+            <div className="flex gap-2">
+              <Image
+                src="/assets/banner/check-circle.svg"
+                alt="check-image"
+                width={30}
+                height={30}
+                className="smallImage"
+              />
+              <p className="text-sm sm:text-lg font-semibold text-black text-center">
+                Memorable Stays
+              </p>
+            </div>
+            <div className="flex gap-2">
+              <Image
+                src="/assets/banner/check-circle.svg"
+                alt="check-image"
+                width={30}
+                height={30}
+                className="smallImage"
+              />
+              <p className="text-sm sm:text-lg font-semibold text-black text-center">
+                Prime Locations
+              </p>
+            </div>
+          </div>
           <div className="sm:flex justify-between items-center relative xxxs:top-10 md:top-3 lg:top-3">
             <h3 className="text-midnightblue text-2xl lg:text-[25px] font-semibold mb-0 xxxs:text-[20px]">
               FEATURED LISTING

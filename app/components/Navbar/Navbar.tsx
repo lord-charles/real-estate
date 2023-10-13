@@ -18,6 +18,7 @@ const navigation: NavigationItem[] = [
   { name: "Listing", href: "/listing", current: false },
   { name: "Gallery", href: "/gallery", current: false },
   { name: "Contact", href: "/contact", current: false },
+  { name: "Blog", href: "/blog", current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -54,8 +55,8 @@ const Navbar = () => {
   return (
     <Disclosure
       as="nav"
-      className="navbar "
-      style={{ backgroundColor: "#eff9f5" }}
+      className="navbar bg-white"
+      // style={{ backgroundColor: "#ffd21f" }}
     >
       <>
         <div className="mx-auto max-w-7xl px-6 py-4 lg:px-8 ">
@@ -102,8 +103,8 @@ const Navbar = () => {
                         className={classNames(
                           item.href === currentLink
                             ? "underline-links"
-                            : "text-slategray",
-                          "px-3 py-4 text-lg font-normal opacity-75 hover:opacity-100"
+                            : "text-black",
+                          "px-1 py-4 text-lg font-bold font-serif text-[22px] opacity-75 hover:opacity-100"
                         )}
                         aria-current={item.href ? "page" : undefined}
                       >
@@ -115,11 +116,11 @@ const Navbar = () => {
                     <Menu as="div" className="relative inline-block text-left">
                       <div>
                         <Menu.Button className="flex gap-3 items-center">
-                          <h2 className="opacity-75 block text-lg font-normal  hover:opacity-100 text-slategray">
+                          <h2 className="opacity-75 block text-lg font-bold  hover:opacity-100 text-black font-serif text-[22px]">
                             More
                           </h2>
                           <ChevronDownIcon
-                            className="-mr-1 h-5 w-5 text-gray-400"
+                            className="-mr-1 h-6 w-6 text-yellow-500 font-bold"
                             aria-hidden="true"
                           />
                         </Menu.Button>
@@ -152,23 +153,7 @@ const Navbar = () => {
                               )}
                             </Menu.Item>
                           </div>
-                          <div className="py-1">
-                            <Menu.Item>
-                              {({ active }) => (
-                                <Link
-                                  href="blog"
-                                  className={classNames(
-                                    active
-                                      ? "bg-gray-100 text-gray-900"
-                                      : "text-gray-700",
-                                    "block px-4 py-2 text-sm"
-                                  )}
-                                >
-                                  Blog
-                                </Link>
-                              )}
-                            </Menu.Item>
-                          </div>
+
                           <div className="py-1">
                             <Menu.Item>
                               {({ active }) => (
@@ -210,19 +195,12 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-
             {/* SIGNIN DIALOG */}
-
-            <Signdialog />
-
+            {/* <Signdialog /> */}
             {/* REGISTER DIALOG */}
-
-            <Registerdialog />
-
+            {/* <Registerdialog /> */}
             {/* DRAWER FOR MOBILE VIEW */}
-
             {/* DRAWER ICON */}
-
             <div className="block lg:hidden">
               <Bars3Icon
                 className="block h-8 w-8"
@@ -230,9 +208,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen(true)}
               />
             </div>
-
             {/* DRAWER LINKS DATA */}
-
             <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
               <Drawerdata />
             </Drawer>
