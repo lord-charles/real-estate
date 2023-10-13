@@ -139,7 +139,7 @@ const Navbar = () => {
                             <Menu.Item>
                               {({ active }) => (
                                 <Link
-                                  href="/agents"
+                                  href="/Agents"
                                   className={classNames(
                                     active
                                       ? "bg-gray-100 text-gray-900"
