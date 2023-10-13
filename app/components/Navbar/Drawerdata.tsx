@@ -48,7 +48,7 @@ const Data = () => {
           </div>
         </div>
       </div>
-      <p className="relative top-[30vh] text-base text-gray-400 md:mt-0 md:order-1 xxxs:text-center">
+      <p className="relative top-[15vh] text-base text-gray-400 md:mt-0 md:order-1 xxxs:text-center">
         rifthomes © 2023 All Rights Reserved.{" "}
         <a href="https://rifthomes.co.ke/" target="_blank" rel="noopener"></a>
       </p>
