@@ -29,7 +29,7 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
           <header className="p-4 flex items-center justify-between">
             <Link href="/">
               <Image
-                src={"/assets/logo/realestate2.png"}
+                src={"/rifthomes-logo.jpeg"}
                 alt="Courses-Logo"
                 width={500}
                 height={500}

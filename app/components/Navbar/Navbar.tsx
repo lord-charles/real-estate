@@ -66,21 +66,21 @@ const Navbar = () => {
               <div className="flex flex-shrink-0 items-center">
                 <Link href="/">
                   <Image
-                    src={"/assets/logo/realestate2.png"}
+                    src={"/rifthomes-logo.png"}
                     alt="Courses-Logo"
                     width={300}
                     height={300}
-                    className="block object-contain w-[120px] lg:hidden relative left-[-20px]"
+                    className="block object-contain w-[90px] lg:hidden relative left-[-20px]"
                     onClick={() => {
                       setIsOpen(false);
                     }}
                   />
                   <Image
-                    src={"/assets/logo/realestate2.png"}
+                    src={"/rifthomes-logo.png"}
                     alt="Courses-Logo"
                     width={300}
                     height={300}
-                    className=" hidden object-contain w-[200px] mt-4 lg:block"
+                    className=" hidden object-contain w-[130px] mt-4 lg:block"
                     onClick={() => {
                       setIsOpen(false);
                     }}

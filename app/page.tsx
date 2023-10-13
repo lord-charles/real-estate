@@ -6,10 +6,12 @@ import Testimonials from "./components/Testimonials/index";
 import Newsletter from "./components/Newsletter/Newsletter";
 import HomeListings from "./components/Home/index";
 import { Looking, FooterBanner } from "./components/";
+import { Toaster } from "react-hot-toast";
 
 export default function Home() {
   return (
     <main>
+      <Toaster />
       <Banner />
       <Listings />
       <HomeListings />

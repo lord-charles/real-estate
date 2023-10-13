@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
+import toast from "react-hot-toast";
 
 const Footer = () => {
   return (
@@ -37,29 +39,21 @@ const Footer = () => {
                   </h4>
                   <nav className="mt-6 space-y-3 md:flex md:space-y-0">
                     <div className="flex flex-col space-y-3 md:w-1/2">
-                      <a className="text-gray-300" href="/#">
+                      <Link className="text-gray-300" href="/#">
                         Home
-                      </a>
-                      <a className="text-gray-300" href="/#">
+                      </Link>
+                      <Link className="text-gray-300" href="/#">
                         About us
-                      </a>
-                      <a className="text-gray-300" href="/#">
+                      </Link>
+                      <Link className="text-gray-300" href="/listing">
                         Listing
-                      </a>
-                      <a className="text-gray-300" href="/#">
-                        Testimonials
-                      </a>
-                    </div>
-                    <div className="flex flex-col space-y-3 md:w-1/2">
-                      <a className="text-gray-300" href="/#">
-                        Property
-                      </a>
-                      <a className="text-gray-300" href="/#">
+                      </Link>
+                      <Link className="text-gray-300" href="/faq">
                         FAQ
-                      </a>
-                      <a className="text-gray-300" href="/#">
+                      </Link>
+                      <Link className="text-gray-300" href="/contact">
                         Contact Us
-                      </a>
+                      </Link>
                     </div>
                   </nav>
                 </div>
@@ -81,6 +75,7 @@ const Footer = () => {
                     <button
                       className="px-4 py-3 font-medium text-white rounded-r bg-lime-600 focus:outline-none"
                       type="submit"
+                      onClick={() => toast.success("success")}
                     >
                       Subscribe
                     </button>
