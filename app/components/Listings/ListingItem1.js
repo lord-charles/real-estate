@@ -38,18 +38,26 @@ export default function ListingItem({ listing }) {
           <div className="flex items-center mt-[10px] space-x-3">
             <div className="flex items-center space-x-1">
               <p className="font-bold text-xs">
-                {listing.beds > 1 ? `${listing.beds} Beds` : "1 Bed"}
+                {listing.beds > 1
+                  ? `${listing.beds} Beds`
+                  : listing.beds === 1
+                  ? `${listing.beds} Bed`
+                  : listing.beds}
               </p>
             </div>
             <div className="flex items-center space-x-1">
               <p className="font-bold text-xs">
-                {listing.baths > 1 ? `${listing.baths} Baths` : "1 Bath"}
+                {listing.baths > 1
+                  ? `${listing.baths} Baths`
+                  : listing.beds === 1
+                  ? `${listing.beds} Bath`
+                  : listing.baths}
               </p>
             </div>
             <div className="flex items-center space-x-1">
-              <p className="font-bold text-xs">
-                {listing.sf > 1 ? `${listing.sf} sqf` : "1 sqf"}
-              </p>
+              {/* <p className="font-bold text-xs">
+                {listing.sf > 1 ? `${listing.sf} sqf` : listing.sf}
+              </p> */}
             </div>
           </div>
         </div>

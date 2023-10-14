@@ -135,6 +135,19 @@ const PropertyDetail = ({ params }) => {
               </div>
             </div>
             <div className="mt-10">
+              <h2 className="text-xl pb-5 uppercase font-heading font-semibold">
+                Key Features:
+              </h2>
+              {ForSale[details - 1].points.map((item, index) => {
+                return (
+                  <ol className="custom-list ml-10" key={index}>
+                    <li>{item}</li>
+                  </ol>
+                );
+              })}
+            </div>
+
+            <div className="mt-10">
               <h2 className="text-2xl font-semibold text-gray-800">
                 Description
               </h2>

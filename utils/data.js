@@ -163,46 +163,35 @@ export const RecentOffers = [
 export const ForRent = [
   {
     id: 100,
-    heading1: "Townhome",
-    heading2: "Kaptembwa",
+    heading1: "2 bedroom apartment ",
+    heading2: "Kiamunyi, Nakuru.",
     beds: 2,
     sf: 1916,
-    bath: 2.5,
-    price: "Ksh12,800",
+    // bath: 2.5,
+    price: "Ksh24,000",
     type: "Rent",
     images: [
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f3722667716od-w480_h360.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f4163775344od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f3201131853od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f137089420od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f2492141837od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f2641331211od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f3786712884od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f2306914331od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f422447537od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f3919670687od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f4133983020od-w1024_h768_x2.webp",
+      "/2bedroom-apartment-for-rent-Kiamunyi-NakuruRent-24k/1.jpeg",
+      "/2bedroom-apartment-for-rent-Kiamunyi-NakuruRent-24k/3.jpeg",
+      "/2bedroom-apartment-for-rent-Kiamunyi-NakuruRent-24k/4.jpeg",
+      "/2bedroom-apartment-for-rent-Kiamunyi-NakuruRent-24k/5.jpeg",
+      "/2bedroom-apartment-for-rent-Kiamunyi-NakuruRent-24k/6.jpeg",
+    ],
+    points: [
+      "Two spacious bedrooms with ample storage",
+      "Affordable monthly rent of 24,000 Ksh",
+      "Tranquil balcony offering scenic views",
+      "Convenient location in Kiamunyi, Nakuru",
     ],
     time: Date.now() - 86400000, // Current timestamp
-    description: "2-Bedroom Townhome in Kaptembwa",
+    description:
+      "Kiamunyi, Nakuru: Experience the epitome of modern living in this impeccably designed 2-bedroom apartment situated in the serene neighborhood of Kiamunyi, Nakuru. This captivating dwelling boasts a spacious layout, awash with natural light, and tastefully appointed with modern furnishings, creating an ambiance of comfort and sophistication.",
     richDescription:
-      "This exquisite 2-bedroom townhome in Kaptembwa offers a serene living experience. With 2.5 bathrooms, a spacious interior, and a modern kitchen, it provides comfort and convenience. Enjoy the tranquility and nearby amenities like schools and parks.",
+      "Step into a haven of tranquility and modern elegance with this exquisite 2-bedroom apartment in Kiamunyi, Nakuru. This captivating abode seamlessly blends comfort and style, offering a sanctuary for those seeking a refined living experience. The apartment's spacious layout, adorned with ample natural light, creates an airy and inviting atmosphere.The two bedrooms provide ample space for relaxation, each adorned with tasteful furnishings and ample storage. The master bedroom features an en suite bathroom, ensuring a luxurious and private retreat. The living room exudes warmth and sophistication, featuring plush seating arrangements and a captivating flat-screen TV, creating the perfect setting for entertaining guests or enjoying moments of relaxation. The well-equipped kitchen, adorned with modern appliances, seamlessly blends functionality and style, making meal preparation a culinary delight. Step out onto the tranquil balcony and immerse yourself in the scenic views, offering a tranquil escape from the bustling city life. Situated in the serene neighborhood of Kiamunyi, Nakuru, this apartment provides a tranquil retreat while still offering convenient access to essential amenities and the vibrant city center. Embrace a lifestyle of comfort and refinement in this impeccably designed 2-bedroom apartment. With an affordable monthly rent of 24,000 Ksh, this apartment offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of modern living.",
     amenities: [
       {
         icon: "/icons/parking-icon.png",
         name: "Parking",
-      },
-      {
-        icon: "/icons/pool-icon.png",
-        name: "Swimming Pool",
-      },
-      {
-        icon: "/icons/fitness-icon.png",
-        name: "Fitness Center",
-      },
-      {
-        icon: "/icons/patio-icon.png",
-        name: "Private Patio",
       },
       {
         icon: "/icons/security-icon.png",
@@ -212,90 +201,86 @@ export const ForRent = [
   },
   {
     id: 101,
-    heading1: "Apartment",
-    heading2: "London",
+    heading1: "2-Bedroom Master Ensuite Apartment",
+    heading2: "Pipeline, Nakuru",
     beds: 2,
     sf: 1916,
-    bath: 2.5,
-    price: "Ksh19,800",
+    // bath: 2.5,
+    price: "Ksh18,000",
     type: "Rent",
     images: [
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f1445796458od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f626711884od-w480_h360.webp",
-
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f2567627587od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f2480294005od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f2652216405od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f1420050697od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f609508927od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f2661089879od-w1024_h768_x2.webp",
+      "/2bedroom-master-apartment-rent-Pipeline18k/1.jpeg",
+      "/2bedroom-master-apartment-rent-Pipeline18k/3.jpeg",
+      "/2bedroom-master-apartment-rent-Pipeline18k/4.jpeg",
+      "/2bedroom-master-apartment-rent-Pipeline18k/5.jpeg",
+      "/2bedroom-master-apartment-rent-Pipeline18k/6.jpeg",
+    ],
+    points: [
+      "Two spacious bedrooms, including a master ensuite",
+      "Serene balcony offering a breath of fresh air",
+      "Convenient location in Pipeline, Nakuru",
+      "Internet ready for seamless connectivity",
+      "Affordable monthly rent of 18,000 Ksh",
     ],
     time: Date.now() - 86400000, // A day (in milliseconds) before the current timestamp
-    description: "Stylish 2-Bedroom Apartment in Central London",
+    description:
+      "Immerse yourself in the comfort and convenience of this impeccably designed 2-bedroom master ensuite apartment in the vibrant Pipeline neighborhood of Nakuru. This spacious abode offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for individuals and couples seeking a comfortable and affordable living space.",
     richDescription:
-      "Indulge in urban living with this stylish 2-bedroom, 2.5-bathroom apartment situated in the heart of London. The property offers a spacious living space, modern amenities, and easy access to city attractions, parks, and more. Experience the vibrancy of London while enjoying the comforts of your new home.",
+      "Discover a haven of comfort and convenience in this impeccably designed 2-bedroom master ensuite apartment in Pipeline, Nakuru. This spacious apartment welcomes you with its warm and inviting ambiance, providing a home away from home for individuals and couples seeking a comfortable and affordable living space. The apartment's layout is designed for effortless living, with two well-appointed bedrooms, including a master ensuite that offers a luxurious and private retreat. The well-equipped kitchen boasts modern appliances and ample counter space, making meal preparation a breeze. Whether you're whipping up a quick breakfast or preparing a gourmet dinner, this kitchen caters to all your culinary needs. Step out onto the serene balcony and embrace the fresh air, offering a tranquil escape from the bustling city life. Enjoy a cup of coffee while soaking in the surrounding views, or simply unwind and let your thoughts wander.Situated in the vibrant Pipeline neighborhood of Nakuru, this apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day.With internet ready for seamless connectivity and dedicated parking space on the premises, this apartment ensures you stay connected and have a hassle-free parking experience. At an affordable monthly rent of 18,000 Ksh, this 2-bedroom master ensuite apartment offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and convenience.",
     amenities: [
       {
         icon: "/icons/parking-icon.png",
-        name: "Underground Parking",
+        name: "Parking",
       },
       {
-        icon: "/icons/garden-icon.png",
-        name: "Private Garden",
-      },
-      {
-        icon: "/icons/fireplace-icon.png",
-        name: "Fireplace",
-      },
-      {
-        icon: "/icons/fitness-icon.png",
-        name: "Fitness Center",
-      },
-      {
-        icon: "/icons/concierge-icon.png",
-        name: "24/7 Concierge",
+        icon: "/icons/wifi-icon.png",
+        name: "Internet ready",
       },
     ],
   },
   {
     id: 102,
-    heading1: "Single-Family Home",
-    heading2: "Mawanga",
-    beds: 4,
-    sf: 3916,
-    bath: 4.5,
-    price: "Ksh19,800",
+    heading1: "Exquisite 2 bedroom master ensuite apartment",
+    heading2: "Milimani, Nakuru.",
+    beds: 2,
+    // sf: 3916,
+    // bath: 4.5,
+    price: "Ksh30,000",
     type: "Rent",
     images: [
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f626711884od-w480_h360.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f1445796458od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f2567627587od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f2480294005od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f2652216405od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f1420050697od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f609508927od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/f4fd0bfc6973a17df401c5645a551341c-f2661089879od-w1024_h768_x2.webp",
+      "/Exquisite2bedroom-master-apartment-Rent - 30k/1.jpeg",
+      "/Exquisite2bedroom-master-apartment-Rent - 30k/3.jpeg",
+      "/Exquisite2bedroom-master-apartment-Rent - 30k/5.jpeg",
+      "/Exquisite2bedroom-master-apartment-Rent - 30k/4.jpeg",
+
+      "/Exquisite2bedroom-master-apartment-Rent - 30k/6.jpeg",
+    ],
+    points: [
+      "Two spacious bedrooms, including a master ensuite",
+      "Open kitchen concept for a seamless living experience",
+      "Spacious bedrooms for ultimate comfort and relaxation",
+      "Convenient location in Milimani, Nakuru",
+      "Internet ready for seamless connectivity",
+      "Affordable monthly rent of 30,000 Ksh",
+      "CCTV surveillance for enhanced security",
+      "Secure parking for peace of mind",
+      "Laundry center on the rooftop for added convenience",
+      "Serene rooftop offering panoramic views",
     ],
     time: Date.now() - 172800000, // Two days (in milliseconds) before the current timestamp
-    description: "Spacious 4-Bedroom Single-Family Home in Tranquil Mawanga",
+    description:
+      "Elevate your living experience with this exquisite 2-bedroom master ensuite apartment nestled in the heart of Milimani, Nakuru. This impeccably designed abode offers a blend of modern amenities, a tranquil atmosphere, and a prime location, providing an ideal retreat for individuals and couples seeking a luxurious and well-appointed living space.",
     richDescription:
-      "Experience the epitome of space and comfort with this spacious 4-bedroom single-family home in the serene Mawanga neighborhood. Offering 4.5 bathrooms, a generous living area, and a well-appointed kitchen, this home is perfect for families seeking tranquility and convenience.",
+      "Discover a haven of luxury and convenience in this exquisite 2-bedroom master ensuite apartment in Milimani, Nakuru. This impeccably designed apartment exudes an air of sophistication and warmth, providing a sanctuary for those seeking a refined living experience. The apartment's spacious layout is designed for effortless living, with two well-appointed bedrooms, including a master ensuite that offers a luxurious and private retreat. The open kitchen concept seamlessly integrates the living and dining areas, creating a seamless flow for entertaining guests or enjoying intimate meals. The modern appliances and ample counter space make meal preparation a culinary delight. Step out onto the serene rooftop and immerse yourself in the panoramic views, offering a tranquil escape from the bustling city life. Enjoy a cup of coffee while soaking in the surrounding vistas or host memorable gatherings under the open sky. The laundry center on the rooftop provides added convenience, ensuring your laundry chores are taken care of with ease. The lush garden offers a tranquil space to unwind amidst nature, while the secure parking and CCTV surveillance provide peace of mind. Situated in the heart of Milimani, Nakuru, this apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your luxurious haven at the end of the day. With internet ready for seamless connectivity, this apartment ensures you stay connected to the world around you. At an affordable monthly rent of 30,000 Ksh, this exquisite 2-bedroom master ensuite apartment offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of luxury and convenience.",
     amenities: [
       {
         icon: "/icons/parking-icon.png",
-        name: "Two-Car Garage",
+        name: "parking",
       },
+
       {
-        icon: "/icons/pool-icon.png",
-        name: "Private Pool",
-      },
-      {
-        icon: "/icons/fireplace-icon.png",
-        name: "Fireplace",
-      },
-      {
-        icon: "/icons/garden-icon.png",
-        name: "Landscaped Garden",
+        icon: "/icons/wifi-icon.png",
+        name: "Internet ready",
       },
       {
         icon: "/icons/security-icon.png",
@@ -305,51 +290,297 @@ export const ForRent = [
   },
   {
     id: 103,
-    heading1: "Townhome",
-    heading2: "Kaptembwa",
+    heading1: "Spacious 1 & 2-Bedroom Apartment",
+    heading2: "Kiamunyi, Nakuru",
     beds: 2,
     sf: 1916,
-    bath: 2.5,
-    price: "Ksh16,800",
+    // bath: 2.5,
+    price: "Ksh20,000",
     type: "Rent",
     images: [
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f4163775344od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f3722667716od-w480_h360.webp",
-
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f3201131853od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f137089420od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f2492141837od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f2641331211od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f3786712884od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f2306914331od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f422447537od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f3919670687od-w1024_h768_x2.webp",
-      "https://ar.rdcpix.com/a67bcecbe0d90efb0501dbaf7d007342c-f4133983020od-w1024_h768_x2.webp",
+      "/apartment-Rent-20k-Kiamunyi-Nakuru/3.jpeg",
+      "/apartment-Rent-20k-Kiamunyi-Nakuru/6.jpeg",
+      "/apartment-Rent-20k-Kiamunyi-Nakuru/7.jpeg",
+      "/apartment-Rent-20k-Kiamunyi-Nakuru/5.jpeg",
+      "/apartment-Rent-20k-Kiamunyi-Nakuru/1.jpeg",
+      "/apartment-Rent-20k-Kiamunyi-Nakuru/4.jpeg",
+    ],
+    points: [
+      "Choice of spacious 1 or 2-bedroom configurations",
+      "Master ensuite for a luxurious and private retreat",
+      "Spacious bedrooms for ultimate comfort and relaxation",
+      "Extraordinarily spacious rooms for ultimate comfort and relaxation",
+      "Front and rear balconies offering scenic views and fresh air",
+      "Affordable monthly rent of 20,000 Ksh",
+      "Convenient location in Kiamunyi, Nakuru",
+      "Secure parking for peace of mind",
     ],
     time: Date.now() - 259200000, // Three days (in milliseconds) before the current timestamp
-    description: "Charming 2-Bedroom Townhome in Kaptembwa",
+    description:
+      "Elevate your living experience with this spacious 1 & 2-bedroom apartment nestled in the serene neighborhood of Kiamunyi, Nakuru. This impeccably designed abode offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for individuals, couples, and small families seeking a comfortable and well-appointed living space.",
     richDescription:
-      "Discover the charm of this 2-bedroom townhome located in the peaceful neighborhood of Kaptembwa. With 2.5 bathrooms, a generously sized interior, and a modern kitchen, this townhome provides comfort and convenience. Enjoy the tranquility and easy access to schools and parks.",
+      "Discover a haven of comfort and convenience in this spacious 1 & 2-bedroom apartment in Kiamunyi, Nakuru.This impeccably designed apartment exudes an air of sophistication and warmth, providing a sanctuary for those seeking a refined living experience. Choose from spacious 1 or 2-bedroom configurations to suit your needs, each offering ample living space and a master ensuite for a luxurious and private retreat.The extraordinarily spacious rooms provide ample space for relaxation and personal expression. The apartment's layout is designed for effortless living, with ample storage and natural light creating an airy and inviting atmosphere. Step out onto the front and rear balconies and immerse yourself in the scenic views, offering a tranquil escape from the bustling city life. Enjoy a cup of coffee while soaking in the surrounding vistas or host memorable gatherings under the open sky. Secure parking on the premises ensures peace of mind, while internet ready for seamless connectivity keeps you connected to the world around you. Situated in the serene neighborhood of Kiamunyi, Nakuru, this apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day. At an affordable monthly rent of 20,000 Ksh, this spacious 1 & 2-bedroom apartment offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and convenience.",
     amenities: [
       {
         icon: "/icons/parking-icon.png",
         name: "On-Site Parking",
       },
       {
-        icon: "/icons/pool-icon.png",
-        name: "Community Pool",
-      },
-      {
-        icon: "/icons/garden-icon.png",
-        name: "Landscaped Garden",
-      },
-      {
-        icon: "/icons/fireplace-icon.png",
-        name: "Fireplace",
+        icon: "/icons/wifi-icon.png",
+        name: "Internet ready",
       },
       {
         icon: "/icons/security-icon.png",
         name: "Security System",
+      },
+    ],
+  },
+  {
+    id: 104,
+    heading1: "Spacious bedsitters",
+    heading2: "Pipeline, Nakuru.",
+    beds: 1,
+    sf: 1916,
+    // bath: 2.5,
+    price: "Ksh5,000",
+    type: "Rent",
+    images: [
+      "/bedsitters-Pipeline-Nakuru-Rent-5k/1.jpeg",
+      "/bedsitters-Pipeline-Nakuru-Rent-5k/2.jpeg",
+      "/bedsitters-Pipeline-Nakuru-Rent-5k/1.jpeg",
+    ],
+    points: [
+      "Spacious bedsitter with ample living space",
+      "Reliable 24/7 water supply for uninterrupted convenience",
+      "Internet ready for seamless connectivity",
+      "Convenient location in Pipeline, Nakuru, just 70 meters from the tarmac road",
+      "Front and rear balconies offering scenic views and fresh air",
+      "Affordable monthly rent of 5,000 Ksh",
+    ],
+    time: Date.now() - 259200000, // Three days (in milliseconds) before the current timestamp
+    description:
+      "Embrace a comfortable and convenient lifestyle with this spacious bedsitter located in the vibrant Pipeline neighborhood of Nakuru. This well-appointed dwelling offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for individuals seeking an affordable and practical living space.",
+    richDescription:
+      "Discover a haven of comfort and convenience in this spacious bedsitter in Pipeline, Nakuru. This well-appointed dwelling offers a comfortable and practical living space for individuals seeking an affordable and convenient home. The spacious bedsitter provides ample room for relaxation and personal expression, with a layout designed for effortless living. Enjoy the convenience of a reliable 24/7 water supply, ensuring uninterrupted access to this essential amenity. Stay connected with the world around you with internet ready for seamless connectivity.Situated in the vibrant Pipeline neighborhood of Nakuru, this bedsitter places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day.At an affordable monthly rent of 5,000 Ksh, this spacious bedsitter offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and convenience.",
+    amenities: [
+      {
+        icon: "/icons/wifi-icon.png",
+        name: "Internet ready",
+      },
+      {
+        icon: "/icons/security-icon.png",
+        name: "Security System",
+      },
+    ],
+  },
+  {
+    id: 105,
+    heading1: "Spacious bedsitters",
+    heading2: "Kiamunyi, Nakuru.",
+    beds: 1,
+    sf: 1916,
+    // bath: 2.5,
+    price: "Ksh13,000",
+    type: "Rent",
+    images: [
+      "/bedsitters-Kiamunyi-Nakuru-Rent-13k/1.jpeg",
+      "/bedsitters-Kiamunyi-Nakuru-Rent-13k/2.jpeg",
+      "/bedsitters-Kiamunyi-Nakuru-Rent-13k/7.jpeg",
+      "/bedsitters-Kiamunyi-Nakuru-Rent-13k/3.jpeg",
+      "/bedsitters-Kiamunyi-Nakuru-Rent-13k/4.jpeg",
+      "/bedsitters-Kiamunyi-Nakuru-Rent-13k/5.jpeg",
+      "/bedsitters-Kiamunyi-Nakuru-Rent-13k/6.jpeg",
+    ],
+    points: [
+      "Spacious bedsitter with ample living space",
+      "Reliable 24/7 water supply for uninterrupted convenience",
+      "Internet ready for seamless connectivity",
+      "Convenient location in <enter the exact neighborhood within Nakuru for greater clarity, e.g. Pipeline, Milimani>, Nakuru, just 70 meters from the tarmac road",
+      "Affordable monthly rent of 13,000 Ksh",
+    ],
+    time: Date.now() - 259200000, // Three days (in milliseconds) before the current timestamp
+    description:
+      "Embrace a comfortable and convenient lifestyle with this spacious bedsitter located in the vibrant Pipeline neighborhood of Nakuru. This well-appointed dwelling offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for individuals seeking an affordable and practical living space.",
+    richDescription:
+      "Discover a haven of comfort and convenience in this spacious bedsitter in Pipeline, Nakuru. This well-appointed dwelling offers a comfortable and practical living space for individuals seeking an affordable and convenient home. The spacious bedsitter provides ample room for relaxation and personal expression, with a layout designed for effortless living. Enjoy the convenience of a reliable 24/7 water supply, ensuring uninterrupted access to this essential amenity. Stay connected with the world around you with internet ready for seamless connectivity.Situated in the vibrant Pipeline neighborhood of Nakuru, this bedsitter places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day.At an affordable monthly rent of 5,000 Ksh, this spacious bedsitter offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and convenience.",
+    amenities: [
+      {
+        icon: "/icons/wifi-icon.png",
+        name: "Internet ready",
+      },
+      {
+        icon: "/icons/security-icon.png",
+        name: "Security System",
+      },
+    ],
+  },
+  {
+    id: 106,
+    heading1: "4-Bedroom Home",
+    heading2: "Kiamunyi, Nakuru.",
+    beds: 4,
+    sf: 1916,
+    // bath: 2.5,
+    price: "Ksh50,000",
+    type: "Rent",
+    images: [
+      "/4bedroom-home-0.25 acre-50k/1.jpeg",
+      "/4bedroom-home-0.25 acre-50k/1.jpeg",
+      "/4bedroom-home-0.25 acre-50k/1.jpeg",
+    ],
+    points: [
+      "Spacious 4-bedroom home with ample living space",
+      "IExpansive garden on the front yard for outdoor relaxation and recreation",
+      "Huge parking space for multiple vehicles",
+      "Affordable monthly rent of 50,000 Ksh",
+      "Serene and secure neighborhood in Kiamunyi, Nakuru",
+    ],
+    time: Date.now() - 259200000,
+    description:
+      "Unveil a tranquil retreat amidst nature with this spacious 4-bedroom home nestled on a ¼ acre parcel in the serene neighborhood of Kiamunyi, Nakuru. This impeccably designed residence offers a blend of modern amenities, ample living space, and a serene environment, providing an ideal haven for families seeking a comfortable and luxurious living experience.",
+    richDescription:
+      "Discover a sanctuary of comfort and tranquility in this spacious 4-bedroom home in Kiamunyi, Nakuru.This impeccably designed residence exudes an air of warmth and sophistication, offering a haven for families seeking a spacious and luxurious living experience. The home's expansive layout provides ample living space, with four well-appointed bedrooms, including two ensuites for added privacy and convenience. The expansive garden on the front yard creates an oasis of tranquility, offering ample space for outdoor relaxation, family gatherings, or indulging in your green thumb. Imagine enjoying a leisurely afternoon picnic or hosting memorable barbecues under the open sky. The huge parking space ensures ample room for multiple vehicles, providing peace of mind and convenience for you and your guests. Situated in the serene neighborhood of Kiamunyi, Nakuru, this home offers a tranquil escape from the bustling city life while still providing convenient access to essential amenities and the vibrant city center.At an affordable monthly rent of 50,000 Ksh, this spacious 4-bedroom home with its expansive garden and modern conveniences offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and tranquility.",
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Huge parking space",
+      },
+    ],
+  },
+  {
+    id: 107,
+    heading1: "Affordable 2 Bedroom",
+    heading2: "Kiamunyi, Nakuru.",
+    beds: 2,
+    sf: 1916,
+    // bath: 2.5,
+    price: "Ksh18,000",
+    type: "Rent",
+    images: [
+      "/2Bedroom-KiamunyiRent18k/7.jpeg",
+      "/2Bedroom-KiamunyiRent18k/1.jpeg",
+      "/2Bedroom-KiamunyiRent18k/2.jpeg",
+      "/2Bedroom-KiamunyiRent18k/3.jpeg",
+      "/2Bedroom-KiamunyiRent18k/4.jpeg",
+      "/2Bedroom-KiamunyiRent18k/5.jpeg",
+      "/2Bedroom-KiamunyiRent18k/6.jpeg",
+    ],
+    points: [
+      "Two spacious bedrooms, including a master ensuite",
+      "Serene balcony offering a breath of fresh air",
+      "Secure parking on the premises for peace of mind",
+      "Affordable monthly rent of 50,000 Ksh",
+      "Reliable 24/7 water supply for uninterrupted convenience",
+      "Convenient location in Kiamunyi, Nakuru",
+      "Affordable monthly rent of 18,000 Ksh",
+    ],
+    time: Date.now() - 259200000,
+    description:
+      "Elevate your living experience with this impeccably designed 2-bedroom master ensuite apartment nestled in the serene neighborhood of Kiamunyi, Nakuru. This well-appointed abode offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for individuals and couples seeking a comfortable and affordable living space.",
+    richDescription:
+      "Discover a haven of comfort and convenience in this impeccably designed 2-bedroom master ensuite apartment in Kiamunyi, Nakuru. This well-appointed apartment exudes an air of warmth and sophistication, providing a sanctuary for those seeking a refined living experience. The apartment's layout is designed for effortless living, with two well-appointed bedrooms, including a master ensuite that offers a luxurious and private retreat. The well-equipped kitchen boasts modern appliances and ample counter space, making meal preparation a breeze. Whether you're whipping up a quick breakfast or preparing a gourmet dinner, this kitchen caters to all your culinary needs. Step out onto the serene balcony and embrace the fresh air, offering a tranquil escape from the bustling city life. Enjoy a cup of coffee while soaking in the surrounding views, or simply unwind and let your thoughts wander. Secure parking on the premises ensures peace of mind, while the reliable 24/7 water supply guarantees uninterrupted access to this essential amenity. Situated in the serene neighborhood of Kiamunyi, Nakuru, this apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day. At an affordable monthly rent of 18,000 Ksh, this 2-bedroom master ensuite apartment offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and convenience.",
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking space",
+      },
+    ],
+  },
+  {
+    id: 108,
+    heading1: "Strategically Located Shops for Rent",
+    heading2: "Kiamunyi, Nakuru.",
+    // beds: 2,
+    sf: 1916,
+    // bath: 2.5,
+    price: "Ksh7,000",
+    type: "Rent",
+    images: [
+      "/ShopsRentKiamunyiNakuruRent7k/1.jpeg",
+      "/ShopsRentKiamunyiNakuruRent7k/2.jpeg",
+      "/ShopsRentKiamunyiNakuruRent7k/1.jpeg",
+    ],
+    points: [
+      "Spacious and well-maintained shops",
+      "Ideal for a variety of business ventures",
+      "Strategic location in Kiamunyi, Nakuru",
+      "Affordable monthly rent of 7,000 Ksh",
+    ],
+    time: Date.now() - 259200000,
+    description:
+      "Establish your business in a thriving commercial hub with these strategically located shops in Kiamunyi, Nakuru. Offering a blend of affordability and accessibility, these shops provide an ideal base for entrepreneurs seeking to tap into a bustling market.",
+    richDescription:
+      "Embrace a thriving commercial opportunity with these strategically located shops in Kiamunyi, Nakuru. These spacious and well-maintained shops offer a blank canvas for your entrepreneurial dreams. Whether you envision a bustling retail store, a vibrant salon, or a cozy café, these versatile spaces can accommodate a variety of business ventures. Situated in the heart of Kiamunyi, Nakuru, these shops place you amidst a bustling commercial hub, ensuring a steady flow of potential customers. The strategic location provides easy access to both foot traffic and vehicular access, maximizing your business's visibility and reach.At an affordable monthly rent of 7,000 Ksh, these strategically located shops offer exceptional value for your investment. Contact us today to schedule a viewing and secure your spot in this thriving commercial hub.",
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking space",
+      },
+    ],
+  },
+  {
+    id: 109,
+    heading1: "Stylish and Convenient 1-Bedroom Apartment",
+    heading2: "White House, Nakuru city",
+    beds: 1,
+    sf: 1916,
+    bath: 1,
+    price: "Ksh13,000",
+    type: "Rent",
+    images: [
+      "/1bedroomapartmentWhiteHouse,Nakuru13k/1.jpeg",
+      "/1bedroomapartmentWhiteHouse,Nakuru13k/2.jpeg",
+      "/1bedroomapartmentWhiteHouse,Nakuru13k/3.jpeg",
+      "/1bedroomapartmentWhiteHouse,Nakuru13k/4.jpeg",
+    ],
+    points: [
+      "Spacious and well-lit 1-bedroom apartment",
+      "Serene balcony offering a breath of fresh air",
+      "Convenient location in White House, Nakuru City",
+      "Affordable monthly rent of 13,000 Ksh",
+    ],
+    time: Date.now() - 259200000,
+    description:
+      "Discover a haven of comfort and convenience in this stylish 1-bedroom apartment located in the vibrant White House neighborhood of Nakuru City. This well-appointed abode offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for individuals seeking an affordable and comfortable living space.",
+    richDescription:
+      "Embrace a comfortable and stylish living experience in this impeccably designed 1-bedroom apartment in White House, Nakuru City.This well-appointed apartment exudes an air of warmth and sophistication, providing a sanctuary for those seeking a refined yet affordable living experience. The apartment's layout is designed for effortless living, with a spacious and well-lit bedroom and a modern kitchen that caters to all your culinary needs.Step out onto the serene balcony and embrace the fresh air, offering a tranquil escape from the bustling city life. Enjoy a cup of coffee while soaking in the surrounding views, or simply unwind and let your thoughts wander.The secure and well-maintained building provides peace of mind, ensuring a safe and comfortable living environment.Situated in the vibrant White House neighborhood of Nakuru City, this apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day.At an affordable monthly rent of 13,000 Ksh, this stylish and convenient 1-bedroom apartment offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and convenience.",
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking space",
+      },
+    ],
+  },
+  {
+    id: 110,
+    heading1: "3-Bedroom Apartment",
+    heading2: "Nakuru city",
+    beds: 3,
+    sf: 1916,
+    // bath: 1,
+    price: "Ksh30,000",
+    type: "Rent",
+    images: [
+      "/3bedroomapartmentNakuru30k/1.jpeg",
+      "/3bedroomapartmentNakuru30k/2.jpeg",
+      "/3bedroomapartmentNakuru30k/3.jpeg",
+      "/3bedroomapartmentNakuru30k/4.jpeg",
+    ],
+    points: [
+      "Three spacious bedrooms, including a master ensuite",
+      "Serene balcony offering a breath of fresh air",
+      "Convenient location in Nakuru City",
+      "Affordable monthly rent of 30,000 Ksh",
+    ],
+    time: Date.now() - 259200000,
+    description:
+      "Immerse yourself in the comfort and convenience of this impeccably designed 3-bedroom apartment in the heart of Nakuru Town. This spacious abode offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for families and groups seeking a comfortable and well-appointed living space.",
+    richDescription:
+      "Discover a haven of comfort and convenience in this impeccably designed 3-bedroom apartment in Nakuru Town. This well-appointed apartment exudes an air of warmth and sophistication, providing a sanctuary for those seeking a refined living experience. The apartment's layout is designed for effortless living, with three well-appointed bedrooms, including a master ensuite that offers a luxurious and private retreat. The well-equipped kitchen boasts modern appliances and ample counter space, making meal preparation a breeze. Whether you're whipping up a quick breakfast or preparing a gourmet dinner, this kitchen caters to all your culinary needs. Step out onto the serene balcony and embrace the fresh air, offering a tranquil escape from the bustling city life. Enjoy a cup of coffee while soaking in the surrounding views, or simply unwind and let your thoughts wander. Secure parking on the premises ensures peace of mind, allowing you to park your vehicle safely and conveniently. Situated in the heart of Nakuru Town, this apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day. At an affordable monthly rent of 30,000 Ksh, this 3-bedroom apartment offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and convenience.",
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking space",
       },
     ],
   },
@@ -366,12 +597,14 @@ export const ForSale = [
     price: "5.7M",
     type: "Buy",
     images: [
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/9.jpeg",
       "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/1.jpeg",
       "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/3.jpeg",
       "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/4.jpeg",
       "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/5.jpeg",
       "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/6.jpeg",
       "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/7.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/8.jpeg",
     ],
     points: [
       "Spacious 3-bedroom home with ample living space",
@@ -895,6 +1128,45 @@ export const AirbnbsData = [
       "Serene balcony offering a breath of fresh air",
       "Strategically located in Pipeline, Nakuru",
       "Affordable daily rate of 4,000 Ksh",
+    ],
+    amenities: [
+      {
+        icon: "/icons/tv-icon.png",
+        name: "Tv",
+      },
+    ],
+  },
+  {
+    id: 402,
+    heading1: "Own compound home",
+    heading2: "Olive Inn, Kiamunyi, Nakuru",
+    beds: 2,
+    sf: 1916,
+    bath: 2,
+    price: "Ksh8,000",
+    type: "Airbnb",
+    images: [
+      "/3 befully-furnished-own-compound-home-Olive-Inn-Kiamunyi8k/1.jpeg",
+      "/3 befully-furnished-own-compound-home-Olive-Inn-Kiamunyi8k/2.jpeg",
+      "/3 befully-furnished-own-compound-home-Olive-Inn-Kiamunyi8k/4.jpeg",
+      "/3 befully-furnished-own-compound-home-Olive-Inn-Kiamunyi8k/5.jpeg",
+      "/3 befully-furnished-own-compound-home-Olive-Inn-Kiamunyi8k/3.jpeg",
+      "/3 befully-furnished-own-compound-home-Olive-Inn-Kiamunyi8k/6.jpeg",
+      "/3 befully-furnished-own-compound-home-Olive-Inn-Kiamunyi8k/7.jpeg",
+      "/3 befully-furnished-own-compound-home-Olive-Inn-Kiamunyi8k/8.jpeg",
+    ],
+    time: Date.now() - 86400000, // Current timestamp
+    description:
+      "Immerse yourself in the epitome of luxury and privacy with this impeccably furnished 3-bedroom home nestled within its own private compound in the serene Olive Inn Estate, Kiamunyi, Nakuru. This captivating residence offers a blend of modern comforts, elegant décor, and a tranquil atmosphere, providing an ideal retreat for families and groups seeking a luxurious getaway.",
+    richDescription:
+      "Step into a haven of luxury and tranquility with this exquisitely furnished 3-bedroom home in Olive Inn Estate, Kiamunyi, Nakuru.This captivating residence exudes elegance and warmth, offering a sanctuary for families and groups seeking a luxurious escape from the hustle and bustle of city life. The home's spacious layout provides ample living space, with three well-appointed bedrooms, each offering a sense of comfort and privacy. The living area seamlessly blends elegance and functionality, featuring plush furnishings that create a cozy and inviting atmosphere. Relax on the comfortable sofas and unwind with your favorite entertainment on the flat-screen TV. The well-equipped kitchen boasts modern appliances and ample counter space, making meal preparation a breeze. Whether you're whipping up a quick breakfast or preparing a gourmet dinner, this kitchen caters to all your culinary needs. Step out onto the serene private compound and embrace the tranquility of nature. The lush surroundings offer ample space for outdoor relaxation, barbeque gatherings, or simply enjoying the fresh air. Situated within the secure Olive Inn Estate in Kiamunyi, Nakuru, this home provides a tranquil retreat while still offering convenient access to essential amenities and the vibrant city center. At an affordable daily rate of 8,000 Ksh for the entire home, this impeccably furnished 3-bedroom residence offers exceptional value for your money. Contact us today to book your stay and experience the epitome of luxury and tranquility.",
+    points: [
+      "Spacious 3-bedroom home with ample living space",
+      "Tastefully furnished living area with a cozy ambiance",
+      "Well-equipped kitchen for effortless meal preparation",
+      "Serene private compound offering outdoor relaxation",
+      "Convenient location in Olive Inn Estate, Kiamunyi, Nakuru",
+      "Affordable daily rate of 8,000 Ksh for the entire home",
     ],
     amenities: [
       {

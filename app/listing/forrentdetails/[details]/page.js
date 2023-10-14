@@ -4,15 +4,13 @@ import { ForRent } from "@/utils/data";
 
 const PropertyDetail = ({ params }) => {
   const { details } = params;
-  console.log(details);
-  const filteredForRent = ForRent.filter((item) => item.id !== details);
 
   return (
     <div className="w-screen overflow-x-hidden">
       <div className="bg-brand-accent relative mt-0">
         <div className="relative max-w-6xl pt-16 pb-10 mx-auto md:pt-20">
           <h1 className="md:text-3xl lg:text-3xl  xxxs:text-2xl  leading-10 text-center uppercase font-heading">
-            {ForRent[details - 100].heading}
+            {ForRent[details - 100].heading1}
           </h1>
           <p className="mt-2 text-center text-gray-700">
             {ForRent[details - 100].heading2}
@@ -34,40 +32,17 @@ const PropertyDetail = ({ params }) => {
                     {ForRent[details - 100].type}
                   </span>
                   <span className="flex items-baseline lg:text-4xl md:text-4xl xxxs:text-xl font-semibold text-red-400">
-                    <span> $600 </span>
+                    {ForRent[details - 100].price}
+                    <span> </span>
                     <sup className="text-xs text-gray-500 -top-0.5 pl-1">
                       /MO
                     </sup>
                   </span>
                 </div>
-                <div className="flex items-end h-full text-xl">+</div>
-                <div className="flex flex-col font-semibold">
-                  <span className="mb-2 text-sm font-semibold text-gray-600 uppercase">
-                    Maintenance
-                  </span>
-                  <span className="lg:text-4xl md:text-4xl xxxs:text-xl text-red-400">
-                    <span>$75</span>
-                    <sup className="text-xs text-gray-500 -top-0.5 pl-1">
-                      /MO
-                    </sup>
-                  </span>
-                </div>
-              </div>
-              <div className="w-px bg-gray-100"></div>
-              <div className="flex flex-col">
-                <span className="mb-2 text-sm font-semibold text-gray-600 uppercase">
-                  Deposit
-                </span>
-                <span className="lg:text-4xl md:text-4xl xxxs:text-xl font-semibold text-gray-800">
-                  <span>$1000</span>
-                  <sup className="text-xs text-gray-500 -top-0.5 pl-1">
-                    /YEAR
-                  </sup>
-                </span>
               </div>
             </div>
             <div className="flex flex-col space-y-6 md:space-x-6 md:items-end md:flex-row md:space-y-0">
-              <button className="px-8 py-4 font-medium rounded-full text-cyan-500 bg-cyan-100 focus:outline-none">
+              <button className="px-8 py-4 font-medium rounded-full text-white bg-cyan-400 focus:outline-none">
                 Request Callback
               </button>
               <button className="px-8 py-4 font-medium text-white rounded-full bg-lime-500 focus:outline-none">
@@ -132,6 +107,19 @@ const PropertyDetail = ({ params }) => {
                 })}
               </div>
             </div>
+            <div className="mt-10">
+              <h2 className="text-xl pb-5 uppercase font-heading font-semibold">
+                Key Features:
+              </h2>
+              {ForRent[details - 100].points.map((item, index) => {
+                return (
+                  <ol className="custom-list ml-10" key={index}>
+                    <li>{item}</li>
+                  </ol>
+                );
+              })}
+            </div>
+
             <div className="mt-10">
               <h2 className="text-2xl font-semibold text-gray-800">
                 Description
