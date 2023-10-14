@@ -826,6 +826,89 @@ export const FeaturedData = [
   // Add more listings here...
 ];
 
+export const AirbnbsData = [
+  {
+    id: 400,
+    heading1: "Airbnb",
+    heading2: "Lanet junction, Nakuru.",
+    beds: 2,
+    sf: 1916,
+    bath: 2.5,
+    price: "Ksh5,000",
+    type: "Airbnb",
+    images: [
+      "/2BA-lanet-junction-naks/1.jpeg",
+      "/2BA-lanet-junction-naks/2.jpeg",
+      "/2BA-lanet-junction-naks/3.jpeg",
+      "/2BA-lanet-junction-naks/4.jpeg",
+      "/2BA-lanet-junction-naks/5.jpeg",
+      "/2BA-lanet-junction-naks/6.jpeg",
+      "/2BA-lanet-junction-naks/7.jpeg",
+      "/2BA-lanet-junction-naks/8.jpeg",
+      "/2BA-lanet-junction-naks/9.jpeg",
+      "/2BA-lanet-junction-naks/10.jpeg",
+    ],
+    time: Date.now() - 86400000, // Current timestamp
+    description:
+      "Immaculately Furnished 2-Bedroom Apartment Lanet Junction, Nakuru. Experience the epitome of modern living in this impeccably furnished 2-bedroom apartment situated in the heart of Lanet Junction, Nakuru.",
+    richDescription:
+      "Step into a haven of tranquility and modern elegance with this exquisite 2-bedroom apartment in Lanet Junction, Nakuru. This captivating abode seamlessly blends comfort and style, offering a sanctuary for those seeking a refined living experience. The apartment's spacious layout, adorned with ample natural light, creates an airy and inviting atmosphere. The two bedrooms provide ample space for relaxation, each adorned with tasteful furnishings and ample storage. The master bedroom features an en suite bathroom, ensuring a luxurious and private retreat.The living room exudes warmth and sophistication, featuring plush seating arrangements and a captivating flat-screen TV, creating the perfect setting for entertaining guests or enjoying moments of relaxation.The well-equipped kitchen, adorned with modern appliances, seamlessly blends functionality and style, making meal preparation a culinary delight.Step out onto the tranquil balcony and immerse yourself in the scenic views, offering a tranquil escape from the bustling city life.Situated in the heart of Lanet Junction, Nakuru, this apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities.Embrace a lifestyle of comfort and refinement in this impeccably furnished 2-bedroom apartment. Contact us today to schedule a viewing and experience the epitome of modern living.",
+    points: [
+      "Two spacious bedrooms with ample storage",
+      "Serene living room with comfortable seating and a flat-screen TV",
+      "Well-equipped kitchen with modern appliances",
+      "Tranquil balcony offering scenic views",
+      "Convenient location in Lanet Junction, Nakuru",
+    ],
+    amenities: [
+      {
+        icon: "/icons/tv-icon.png",
+        name: "Tv",
+      },
+    ],
+  },
+  {
+    id: 401,
+    heading1: "Airbnb",
+    heading2: "Pipeline, Nakuru",
+    beds: 2,
+    sf: 1916,
+    bath: 2.5,
+    price: "Ksh4,000",
+    type: "Airbnb",
+    images: [
+      "/aptpipiline-naks-4kday/1.jpeg",
+      "/aptpipiline-naks-4kday/2.jpeg",
+      "/aptpipiline-naks-4kday/4.jpeg",
+      "/aptpipiline-naks-4kday/5.jpeg",
+      "/aptpipiline-naks-4kday/3.jpeg",
+      "/aptpipiline-naks-4kday/6.jpeg",
+      "/aptpipiline-naks-4kday/7.jpeg",
+      "/aptpipiline-naks-4kday/8.jpeg",
+      "/aptpipiline-naks-4kday/9.jpeg",
+    ],
+    time: Date.now() - 86400000, // Current timestamp
+    description:
+      "Spacious 2-Bedroom Furnished Apartment Pipeline, Nakuru. Immerse yourself in the comfort and convenience of this exquisitely furnished 2-bedroom apartment in the vibrant Pipeline neighborhood of Nakuru. This spacious abode offers a blend of modern amenities and a tranquil atmosphere, providing an ideal retreat for both short and extended stays.",
+    richDescription:
+      "Step into a haven of tranquility and modern elegance with this exquisite 2-bedroom apartment in Lanet Junction, Nakuru. This captivating abode seamlessly blends comfort and style, offering a sanctuary for those seeking a refined living experience. The apartment's spacious layout, adorned with ample natural light, creates an airy and inviting atmosphere. The two bedrooms provide ample space for relaxation, each adorned with tasteful furnishings and ample storage. The master bedroom features an en suite bathroom, ensuring a luxurious and private retreat.The living room exudes warmth and sophistication, featuring plush seating arrangements and a captivating flat-screen TV, creating the perfect setting for entertaining guests or enjoying moments of relaxation.The well-equipped kitchen, adorned with modern appliances, seamlessly blends functionality and style, making meal preparation a culinary delight.Step out onto the tranquil balcony and immerse yourself in the scenic views, offering a tranquil escape from the bustling city life.Situated in the heart of Lanet Junction, Nakuru, this apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities.Embrace a lifestyle of comfort and refinement in this impeccably furnished 2-bedroom apartment. Contact us today to schedule a viewing and experience the epitome of modern living.",
+    points: [
+      "Two well-appointed bedrooms with ample storage",
+      "Tastefully furnished living area with a cozy ambiance",
+      "Fully equipped kitchen for effortless meal preparation",
+      "Serene balcony offering a breath of fresh air",
+      "Strategically located in Pipeline, Nakuru",
+      "Affordable daily rate of 4,000 Ksh",
+    ],
+    amenities: [
+      {
+        icon: "/icons/tv-icon.png",
+        name: "Tv",
+      },
+    ],
+  },
+];
+
 
 
 

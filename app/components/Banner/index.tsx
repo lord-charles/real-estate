@@ -24,7 +24,7 @@ const Banner = () => {
           width={3000}
           height={3000}
           alt="bg"
-          className=" object-cover w-screen lg:h-[50rem] md:h-[35rem] xxxs:h-[48rem]"
+          className=" object-cover w-screen lg:h-[50rem] md:h-[35rem] xxxs:h-[48rem] blur-[0px] "
         />
       </div>
       <div className="mx-auto max-w-6xl lg:pt-20 xxxs:pt-5 md:pt-20 xxxs:pb-24 px-6 z-[99999999] relative lg:top-0 md:top-0 xxxs:top-[50px]">

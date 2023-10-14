@@ -2,10 +2,10 @@ import Moment from "react-moment";
 import { MdLocationOn } from "react-icons/md";
 import Link from "next/link";
 import Image from "next/image";
-export default function AirListingItem({ listing }) {
+export default function AirbnbListingItem({ listing }) {
   return (
     <li className="relative bg-white flex flex-col justify-between items-center shadow-md hover:shadow-xl rounded-md overflow-hidden transition-shadow duration-150 m-[10px]">
-      <Link href={`/listing/forsaledetails/${listing.id}`} className="contents">
+      <Link href={`/listing/airbnb/${listing.id}`} className="contents">
         <Image
           className="h-[200px] w-full object-cover hover:scale-105 transition-scale duration-200 ease-in"
           loading="lazy"

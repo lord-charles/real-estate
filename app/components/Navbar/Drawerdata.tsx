@@ -11,9 +11,10 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   { name: "Home", href: "/", current: true },
-  { name: "Listing", href: "/listing", current: false },
-  { name: "Gallery", href: "/gallery", current: false },
+  { name: "Rentals", href: "/listing", current: false },
+  { name: "Airbnbs", href: "/Airbnbs", current: false },
   { name: "Contact", href: "/contact", current: false },
+  { name: "Gallery", href: "/gallery", current: false },
   { name: "Agents", href: "/Agents", current: false },
   { name: "FAQ", href: "/faq", current: false },
   { name: "Blog", href: "/blog", current: false },
@@ -48,7 +49,7 @@ const Data = () => {
           </div>
         </div>
       </div>
-      <p className="relative top-[20vh] text-base text-gray-400 md:mt-0 md:order-1 xxxs:text-center">
+      <p className="relative top-[19vh] text-base text-gray-400 md:mt-0 md:order-1 xxxs:text-center">
         rifthomes © 2023 All Rights Reserved.{" "}
         <a href="https://rifthomes.co.ke/" target="_blank" rel="noopener"></a>
       </p>
