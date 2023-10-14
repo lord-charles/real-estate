@@ -20,7 +20,7 @@ const Banner = () => {
     >
       <div className="absolute bottom-[1vh] z-[-1]">
         <Image
-          src="/hero.jpeg"
+          src="/banners/bgmain.jpeg"
           width={3000}
           height={3000}
           alt="bg"

@@ -663,7 +663,7 @@ export const ForSale = [
   {
     heading: "Affordable Bungalow",
     heading2: "Kiamunyi, Nakuru",
-    name: "Colt Stelle",
+    name: "Affordable Bungalow",
     images: [
       "/BungalowSaleKiamunyiNakuru/1.jpeg",
       "/BungalowSaleKiamunyiNakuru/2.jpeg",
@@ -892,34 +892,37 @@ export const FeaturedData = [
   },
   {
     id: 303,
-    heading: "Hyrax Hill Apartment",
-    heading2: "White House, Nakuru",
+    heading: "Affordable 2 Bedroom",
+    heading2: "Kiamunyi, Nakuru.",
     beds: 2,
     sf: 1916,
-    bath: 2,
-    price: "Ks23,000",
-    rating: 4.2,
+    rating: 4.7,
+    bath: 2.5,
+    price: "Ksh18,000",
     type: "Rent",
     images: [
-      "/HyraxHillApartment23kWhiteHouseNakuru/7.jpeg",
-      "/HyraxHillApartment23kWhiteHouseNakuru/1.jpeg",
-      "/HyraxHillApartment23kWhiteHouseNakuru/2.jpeg",
-      "/HyraxHillApartment23kWhiteHouseNakuru/3.jpeg",
-      "/HyraxHillApartment23kWhiteHouseNakuru/4.jpeg",
-      "/HyraxHillApartment23kWhiteHouseNakuru/5.jpeg",
-      "/HyraxHillApartment23kWhiteHouseNakuru/6.jpeg",
+      "/2Bedroom-KiamunyiRent18k/7.jpeg",
+      "/2Bedroom-KiamunyiRent18k/1.jpeg",
+      "/2Bedroom-KiamunyiRent18k/2.jpeg",
+      "/2Bedroom-KiamunyiRent18k/3.jpeg",
+      "/2Bedroom-KiamunyiRent18k/4.jpeg",
+      "/2Bedroom-KiamunyiRent18k/5.jpeg",
+      "/2Bedroom-KiamunyiRent18k/6.jpeg",
     ],
     points: [
-      "Spacious and well-lit living area",
+      "Two spacious bedrooms, including a master ensuite",
       "Serene balcony offering a breath of fresh air",
-      "Convenient location in White House, Nakuru",
-      "Affordable monthly rent of 23,000 Ksh",
+      "Secure parking on the premises for peace of mind",
+      "Affordable monthly rent of 50,000 Ksh",
+      "Reliable 24/7 water supply for uninterrupted convenience",
+      "Convenient location in Kiamunyi, Nakuru",
+      "Affordable monthly rent of 18,000 Ksh",
     ],
     time: Date.now() - 259200000,
     description:
-      "Embrace a tranquil and well-appointed living experience at Hyrax Hill Apartment, nestled in the vibrant White House neighborhood of Nakuru. This impeccably designed apartment offers a blend of modern amenities, a serene atmosphere, and a convenient location, providing an ideal haven for individuals and couples seeking a comfortable and affordable living space.",
+      "Elevate your living experience with this impeccably designed 2-bedroom master ensuite apartment nestled in the serene neighborhood of Kiamunyi, Nakuru. This well-appointed abode offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for individuals and couples seeking a comfortable and affordable living space.",
     richDescription:
-      "Unveil a haven of comfort and convenience at Hyrax Hill Apartment in White House, Nakuru.This impeccably designed apartment exudes an air of warmth and sophistication, providing a sanctuary for those seeking a refined yet affordable living experience. The apartment's layout is designed for effortless living, with a spacious and well-lit living area and a modern kitchen that caters to all your culinary needs.Step out onto the serene balcony and embrace the fresh air, offering a tranquil escape from the bustling city life. Enjoy a cup of coffee while soaking in the surrounding views, or simply unwind and let your thoughts wander.The secure and well-maintained building provides peace of mind, ensuring a safe and comfortable living environment. Situated in the vibrant White House neighborhood of Nakuru, Hyrax Hill Apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day. At an affordable monthly rent of 23,000 Ksh, Hyrax Hill Apartment offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and convenience.",
+      "Discover a haven of comfort and convenience in this impeccably designed 2-bedroom master ensuite apartment in Kiamunyi, Nakuru. This well-appointed apartment exudes an air of warmth and sophistication, providing a sanctuary for those seeking a refined living experience. The apartment's layout is designed for effortless living, with two well-appointed bedrooms, including a master ensuite that offers a luxurious and private retreat. The well-equipped kitchen boasts modern appliances and ample counter space, making meal preparation a breeze. Whether you're whipping up a quick breakfast or preparing a gourmet dinner, this kitchen caters to all your culinary needs. Step out onto the serene balcony and embrace the fresh air, offering a tranquil escape from the bustling city life. Enjoy a cup of coffee while soaking in the surrounding views, or simply unwind and let your thoughts wander. Secure parking on the premises ensures peace of mind, while the reliable 24/7 water supply guarantees uninterrupted access to this essential amenity. Situated in the serene neighborhood of Kiamunyi, Nakuru, this apartment places you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day. At an affordable monthly rent of 18,000 Ksh, this 2-bedroom master ensuite apartment offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of comfort and convenience.",
     amenities: [
       {
         icon: "/icons/parking-icon.png",
@@ -929,7 +932,7 @@ export const FeaturedData = [
   },
   {
     id: 302,
-    heading: "2 bedroom master ensuite apartment",
+    heading: "2 bedroom ensuite apartment",
     heading2: "Milimani, Nakuru.",
     beds: 2,
     sf: 1916,
@@ -975,6 +978,77 @@ export const FeaturedData = [
       {
         icon: "/icons/security-icon.png",
         name: "Security System",
+      },
+    ],
+  },
+  {
+    id: 306,
+    heading: "Shops for Rent",
+    heading2: "Kiamunyi, Nakuru.",
+    // beds: 2,
+    sf: 1916,
+    // bath: 2.5,
+    price: "Ksh7,000",
+    rating: 4.1,
+    type: "Rent",
+    images: [
+      "/ShopsRentKiamunyiNakuruRent7k/1.jpeg",
+      "/ShopsRentKiamunyiNakuruRent7k/2.jpeg",
+      "/ShopsRentKiamunyiNakuruRent7k/1.jpeg",
+    ],
+    points: [
+      "Spacious and well-maintained shops",
+      "Ideal for a variety of business ventures",
+      "Strategic location in Kiamunyi, Nakuru",
+      "Affordable monthly rent of 7,000 Ksh",
+    ],
+    time: Date.now() - 259200000,
+    description:
+      "Establish your business in a thriving commercial hub with these strategically located shops in Kiamunyi, Nakuru. Offering a blend of affordability and accessibility, these shops provide an ideal base for entrepreneurs seeking to tap into a bustling market.",
+    richDescription:
+      "Embrace a thriving commercial opportunity with these strategically located shops in Kiamunyi, Nakuru. These spacious and well-maintained shops offer a blank canvas for your entrepreneurial dreams. Whether you envision a bustling retail store, a vibrant salon, or a cozy café, these versatile spaces can accommodate a variety of business ventures. Situated in the heart of Kiamunyi, Nakuru, these shops place you amidst a bustling commercial hub, ensuring a steady flow of potential customers. The strategic location provides easy access to both foot traffic and vehicular access, maximizing your business's visibility and reach.At an affordable monthly rent of 7,000 Ksh, these strategically located shops offer exceptional value for your investment. Contact us today to schedule a viewing and secure your spot in this thriving commercial hub.",
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking space",
+      },
+    ],
+  },
+  {
+    id: 307,
+    heading: "Noble Home",
+    heading2: "Kiamunyi",
+    beds: 3,
+    sf: "1/4 acre",
+    // bath: 3,
+    price: "5.7M",
+    type: "Buy",
+    rating: 4.5,
+    images: [
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/9.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/1.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/3.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/4.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/5.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/6.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/7.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/8.jpeg",
+    ],
+    points: [
+      "Spacious 3-bedroom home with ample living space",
+      "Two additional self-contained servant quarters (DSQs)",
+      "Serene 1/4 acre parcel of land offering ample outdoor space",
+      "Tranquil and secure neighborhood in Kiamunyi, Nakuru",
+    ],
+    time: Date.now() - 86400000, // Current timestamp
+    description:
+      "Serene Sanctuary: 3-Bedroom Home with Expansive Land Kiamunyi, Nakuru: Discover a haven of tranquility and spacious living with this captivating 3-bedroom home nestled amidst a 1/4 acre parcel of land in the serene neighborhood of Kiamunyi, Nakuru. This exquisite property offers a blend of modern comforts and a tranquil atmosphere, providing an ideal retreat for families and those seeking a peaceful lifestyle.",
+    richDescription:
+      "Embrace a life of tranquility and spacious living with this captivating 3-bedroom home nestled amidst a 1/4 acre parcel of land in Kiamunyi, Nakuru.This exquisite property exudes warmth and serenity, offering a sanctuary for families and those seeking a peaceful escape from the hustle and bustle of city life. The home's spacious layout provides ample living space, with three well-appointed bedrooms, each offering a sense of comfort and privacy. The living area seamlessly blends elegance and functionality, featuring ample space for entertaining guests or enjoying moments of relaxation with loved ones. The kitchen, adorned with modern appliances, makes meal preparation a breeze, while the dining area provides a cozy setting for shared meals and family gatherings. Two additional self-contained servant quarters (DSQs) provide ample accommodation for domestic staff or extended family members, ensuring everyone's comfort and privacy. Step out onto the expansive 1/4 acre parcel of land and immerse yourself in the tranquility of nature. The lush surroundings offer ample space for outdoor activities, gardening, or simply enjoying the serene atmosphere Situated in the peaceful neighborhood of Kiamunyi, Nakuru, this property provides a tranquil retreat while still offering convenient access to essential amenities and the vibrant city center.Discover a lifestyle of harmony and spacious living with this captivating 3-bedroom home and expansive land. Contact us today to schedule a viewing and experience the tranquility of this exceptional property.",
+    amenities: [
+      {
+        icon: "/icons/garden-icon.png",
+        name: "Garden",
       },
     ],
   },

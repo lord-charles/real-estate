@@ -173,7 +173,11 @@ export default class MultipleItems extends Component {
 
                     <div className="flex justify-between pt-6 border p-2 items-center h-[55px] overflow-hidden">
                       <div className="text-gray-500 relative top-[-4px] text-[15px] text-center">
-                        {items.beds} Beds
+                        {items.beds > 1
+                          ? `${items.beds} Beds`
+                          : items.beds === 1
+                          ? `${items.beds} Bed`
+                          : items.beds}
                       </div>
                       <Divider className="h-[70px] w-[1px] " />
                       <div className="text-gray-500 relative top-[-4px] text-[15px] text-center">
@@ -181,7 +185,11 @@ export default class MultipleItems extends Component {
                       </div>
                       <Divider className="h-[70px] w-[1px] " />
                       <div className="text-gray-500 relative top-[-4px] text-[15px] text-center">
-                        {items.bath}Baths
+                        {items.bath > 1
+                          ? `${items.bath} bath`
+                          : items.bath === 1
+                          ? `${items.bath} bath`
+                          : null}
                       </div>
                       <Divider className="h-[70px] w-[1px] " />
                       <Link

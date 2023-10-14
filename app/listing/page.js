@@ -1,10 +1,9 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
+
 import { useState } from "react";
-import ListingItem from "../components/Listings/ListingItem";
-import { ForSale } from "@/utils/data";
+import ListingItem1 from "../components/Listings/ListingItem1";
+import { ForRent, ForSale } from "@/utils/data";
 
 export default function PropertyListing() {
   const [show, setshow] = useState(true);
@@ -29,7 +28,7 @@ export default function PropertyListing() {
               <div className="flex-1 hidden md:block"></div>
               <div className="flex-1">
                 <h2 className="text-xl text-center leading-10 uppercase font-heading">
-                  Featured Listing
+                  Rentals Listing
                 </h2>
               </div>
               <div className="items-center justify-end flex-1 hidden space-x-4 md:flex">
@@ -229,11 +228,11 @@ export default function PropertyListing() {
               </div>
 
               <div className="w-full lg:w-8/12">
-                {ForSale && ForSale.length > 0 && (
+                {ForRent && ForRent.length > 0 && (
                   <div className="m-2 mb-9 relative top-[40px]">
                     <ul className="grid xxxs:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 ">
-                      {ForSale.map((listing, index) => (
-                        <ListingItem key={index} listing={listing} />
+                      {ForRent.map((listing, index) => (
+                        <ListingItem1 key={index} listing={listing} />
                       ))}
                     </ul>
                   </div>
