@@ -41,7 +41,7 @@ const PropertyDetail = ({ params }) => {
               </div>
             </div>
             <div className="flex flex-col space-y-6 md:space-x-6 md:items-end md:flex-row md:space-y-0">
-              <button className="px-8 py-4 font-medium rounded-full text-cyan-500 bg-cyan-400 focus:outline-none">
+              <button className="px-8 py-4 font-medium rounded-full text-white bg-cyan-400 focus:outline-none">
                 Request Callback
               </button>
               <button className="px-8 py-4 font-medium text-white rounded-full bg-lime-500 focus:outline-none">
@@ -105,6 +105,19 @@ const PropertyDetail = ({ params }) => {
                   );
                 })}
               </div>
+            </div>
+
+            <div className="mt-10">
+              <h2 className="text-xl pb-5 uppercase font-heading font-semibold">
+                Key Features:
+              </h2>
+              {AirbnbsData[details - 400].points.map((item, index) => {
+                return (
+                  <ol className="custom-list ml-10" key={index}>
+                    <li>{item}</li>
+                  </ol>
+                );
+              })}
             </div>
             <div className="mt-10">
               <h2 className="text-2xl font-semibold text-gray-800">
