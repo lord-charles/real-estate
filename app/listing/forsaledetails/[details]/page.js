@@ -34,36 +34,9 @@ const PropertyDetail = ({ params }) => {
                     {ForSale[details - 1].type}
                   </span>
                   <span className="flex items-baseline lg:text-4xl md:text-4xl xxxs:text-xl font-semibold text-red-400">
-                    <span> $600 </span>
-                    <sup className="text-xs text-gray-500 -top-0.5 pl-1">
-                      /MO
-                    </sup>
+                    {ForSale[details - 1].price}
                   </span>
                 </div>
-                <div className="flex items-end h-full text-xl">+</div>
-                <div className="flex flex-col font-semibold">
-                  <span className="mb-2 text-sm font-semibold text-gray-600 uppercase">
-                    Maintenance
-                  </span>
-                  <span className="lg:text-4xl md:text-4xl xxxs:text-xl text-red-400">
-                    <span>$75</span>
-                    <sup className="text-xs text-gray-500 -top-0.5 pl-1">
-                      /MO
-                    </sup>
-                  </span>
-                </div>
-              </div>
-              <div className="w-px bg-gray-1"></div>
-              <div className="flex flex-col">
-                <span className="mb-2 text-sm font-semibold text-gray-600 uppercase">
-                  Deposit
-                </span>
-                <span className="lg:text-4xl md:text-4xl xxxs:text-xl font-semibold text-gray-800">
-                  <span>$10</span>
-                  <sup className="text-xs text-gray-500 -top-0.5 pl-1">
-                    /YEAR
-                  </sup>
-                </span>
               </div>
             </div>
             <div className="flex flex-col space-y-6 md:space-x-6 md:items-end md:flex-row md:space-y-0">
@@ -132,6 +105,19 @@ const PropertyDetail = ({ params }) => {
                 })}
               </div>
             </div>
+            <div className="mt-10">
+              <h2 className="text-xl pb-5 uppercase font-heading font-semibold">
+                Key Features:
+              </h2>
+              {ForSale[details - 1].points.map((item, index) => {
+                return (
+                  <ol className="custom-list ml-10" key={index}>
+                    <li>{item}</li>
+                  </ol>
+                );
+              })}
+            </div>
+
             <div className="mt-10">
               <h2 className="text-2xl font-semibold text-gray-800">
                 Description

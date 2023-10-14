@@ -43,12 +43,12 @@ export default function AirListingItem({ listing }) {
             </div>
             <div className="flex items-center space-x-1">
               <p className="font-bold text-xs">
-                {listing.baths > 1 ? `${listing.baths} Baths` : "1 Bath"}
+                {listing.baths > 1 ? `${listing.baths} Baths` : listing.baths}
               </p>
             </div>
             <div className="flex items-center space-x-1">
               <p className="font-bold text-xs">
-                {listing.sf > 1 ? `${listing.sf} sqf` : "1 sqf"}
+                {listing.sf > 1 ? `${listing.sf} sqf` : listing.sf}
               </p>
             </div>
           </div>

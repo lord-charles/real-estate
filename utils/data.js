@@ -358,40 +358,36 @@ export const ForRent = [
 export const ForSale = [
   {
     id: 1,
-    heading1: "Single-Family Home",
-    heading2: "Kaptembwa",
+    heading1: "Noble Home",
+    heading2: "Kiamunyi",
     beds: 3,
-    sf: 3916,
-    bath: 3,
-    price: "Ksh12M",
+    sf: "1/4 acre",
+    // bath: 3,
+    price: "5.7M",
     type: "Buy",
     images: [
-      "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m4209806630od-w640_h480_x2.webp?w=640&q=75",
-      "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m2801289168od-w640_h480_x2.webp?w=640&q=75",
-      "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m2043831998od-w640_h480_x2.webp?w=640&q=75",
-      "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m2657243812od-w640_h480_x2.webp?w=640&q=75",
-      "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m213555043od-w640_h480_x2.webp?w=640&q=75",
-      "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m2630659636od-w640_h480_x2.webp?w=640&q=75",
-      "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m1278944582od-w640_h480_x2.webp?w=640&q=75",
-      "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m3160044001od-w640_h480_x2.webp?w=640&q=75",
-      "https://ap.rdcpix.com/8830488443fda8082dd8437f3aac3c95l-m3924156268od-w640_h480_x2.webp?w=640&q=75",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/1.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/3.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/4.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/5.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/6.jpeg",
+      "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/7.jpeg",
+    ],
+    points: [
+      "Spacious 3-bedroom home with ample living space",
+      "Two additional self-contained servant quarters (DSQs)",
+      "Serene 1/4 acre parcel of land offering ample outdoor space",
+      "Tranquil and secure neighborhood in Kiamunyi, Nakuru",
     ],
     time: Date.now() - 86400000, // Current timestamp
-    description: "3-Bedroom Single-Family Home in Kaptembwa",
+    description:
+      "Serene Sanctuary: 3-Bedroom Home with Expansive Land Kiamunyi, Nakuru: Discover a haven of tranquility and spacious living with this captivating 3-bedroom home nestled amidst a 1/4 acre parcel of land in the serene neighborhood of Kiamunyi, Nakuru. This exquisite property offers a blend of modern comforts and a tranquil atmosphere, providing an ideal retreat for families and those seeking a peaceful lifestyle.",
     richDescription:
-      "This beautiful 3-bedroom single-family home in Kaptembwa offers a tranquil living experience. With 3 bathrooms, a spacious interior, and a well-manicured garden, it provides comfort and convenience. Enjoy the peaceful neighborhood and easy access to schools and parks.",
+      "Embrace a life of tranquility and spacious living with this captivating 3-bedroom home nestled amidst a 1/4 acre parcel of land in Kiamunyi, Nakuru.This exquisite property exudes warmth and serenity, offering a sanctuary for families and those seeking a peaceful escape from the hustle and bustle of city life. The home's spacious layout provides ample living space, with three well-appointed bedrooms, each offering a sense of comfort and privacy. The living area seamlessly blends elegance and functionality, featuring ample space for entertaining guests or enjoying moments of relaxation with loved ones. The kitchen, adorned with modern appliances, makes meal preparation a breeze, while the dining area provides a cozy setting for shared meals and family gatherings. Two additional self-contained servant quarters (DSQs) provide ample accommodation for domestic staff or extended family members, ensuring everyone's comfort and privacy. Step out onto the expansive 1/4 acre parcel of land and immerse yourself in the tranquility of nature. The lush surroundings offer ample space for outdoor activities, gardening, or simply enjoying the serene atmosphere Situated in the peaceful neighborhood of Kiamunyi, Nakuru, this property provides a tranquil retreat while still offering convenient access to essential amenities and the vibrant city center.Discover a lifestyle of harmony and spacious living with this captivating 3-bedroom home and expansive land. Contact us today to schedule a viewing and experience the tranquility of this exceptional property.",
     amenities: [
-      {
-        icon: "/icons/parking-icon.png",
-        name: "Garage",
-      },
       {
         icon: "/icons/garden-icon.png",
         name: "Garden",
-      },
-      {
-        icon: "/icons/fireplace-icon.png",
-        name: "Fireplace",
       },
     ],
   },
