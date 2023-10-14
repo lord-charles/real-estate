@@ -36,36 +36,12 @@ const PropertyDetail = ({ params }) => {
                     {FeaturedData[details - 300].type}
                   </span>
                   <span className="flex items-baseline lg:text-4xl md:text-4xl xxxs:text-xl font-semibold text-red-400">
-                    <span> $600 </span>
+                    {FeaturedData[details - 300].price}
                     <sup className="text-xs text-gray-500 -top-0.5 pl-1">
                       /MO
                     </sup>
                   </span>
                 </div>
-                <div className="flex items-end h-full text-xl">+</div>
-                <div className="flex flex-col font-semibold">
-                  <span className="mb-2 text-sm font-semibold text-gray-600 uppercase">
-                    Maintenance
-                  </span>
-                  <span className="lg:text-4xl md:text-4xl xxxs:text-xl text-red-400">
-                    <span>$75</span>
-                    <sup className="text-xs text-gray-500 -top-0.5 pl-1">
-                      /MO
-                    </sup>
-                  </span>
-                </div>
-              </div>
-              <div className="w-px bg-gray-200"></div>
-              <div className="flex flex-col">
-                <span className="mb-2 text-sm font-semibold text-gray-600 uppercase">
-                  Deposit
-                </span>
-                <span className="lg:text-4xl md:text-4xl xxxs:text-xl font-semibold text-gray-800">
-                  <span>$2000</span>
-                  <sup className="text-xs text-gray-500 -top-0.5 pl-1">
-                    /YEAR
-                  </sup>
-                </span>
               </div>
             </div>
             <div className="flex flex-col space-y-6 md:space-x-6 md:items-end md:flex-row md:space-y-0">
