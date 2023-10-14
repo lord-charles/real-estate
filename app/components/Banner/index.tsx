@@ -30,20 +30,25 @@ const Banner = () => {
       <div className="mx-auto max-w-6xl lg:pt-20 xxxs:pt-5 md:pt-20 xxxs:pb-24 px-6 z-[99999999] relative lg:top-0 md:top-0 xxxs:top-[50px]">
         <div className="col-span-6 flex flex-col justify-evenly items-center space-y-4 lg:space-y-[80px] ">
           <div className="items-center flex flex-col">
-            <h1
-              className=" lg:text-[40px] xxxs:text-[20px]  font-semibold text-center pt-3 text-black p-3 rounded-md custom-font-p"
+            <div
               style={{
                 backgroundColor: "#ffd21f",
               }}
+              className="rounded-md"
             >
-              RIFT HOMES AND PROPERTY REALTORS <br />
-            </h1>
-            <h1
-              className="underline lg:text-[40px] xxxs:text-[20px]  font-semibold text-center pt-3  text-white mt-1 p-3 rounded-md bg-black custom-font-p w-fit "
-              // style={{ fontFamily: "Helvetica, sans-serif" }}
-            >
-              The way and the truth
-            </h1>
+              <h1 className=" lg:text-[40px] xxxs:text-[20px]  font-semibold text-center text-black  px-2 rounded-md custom-font-p">
+                RIFT HOMES AND PROPERTY REALTORS <br />
+              </h1>
+            </div>
+
+            <div className="rounded-md bg-black mt-4">
+              <h1
+                className="underline lg:text-[40px] xxxs:text-[20px]  font-semibold text-center text-white  px-2  relative top-[-5px] custom-font-p w-fit "
+                // style={{ fontFamily: "Helvetica, sans-serif" }}
+              >
+                The way and the truth
+              </h1>
+            </div>
           </div>
 
           <div className="flex lg:flex-row md:flex-row xxxs:flex-col lg:space-x-[1px] py-4 z-[999999]">
