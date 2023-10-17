@@ -4,7 +4,7 @@ import Image from "next/image";
 const Contact = () => {
   return (
     <main className="flex flex-col flex-1">
-      <div className="pb-40">
+      <div className="pb-0">
         <div className="bg-brand-accent relative">
           <div className="relative max-w-6xl pt-16 pb-10 mx-auto md:pt-20">
             <h1 className=" font-semibold text-3xl leading-10 text-center uppercase font-heading">
@@ -116,32 +116,32 @@ const Contact = () => {
                 <div className="grid gap-8 md:grid-cols-2">
                   <input
                     type="text"
-                    className="px-1 outline-none border-0 border-b focus:ring-0 border-red-600 focus:border-red-600"
+                    className="px-1 outline-none border p-2 rounded-md border-b focus:ring-0 border-gray-300 focus:border-green-500 "
                     placeholder="Name*"
                     name="name"
                   />
                   <input
                     type="email"
                     placeholder="Email*"
-                    className="px-1 outline-none border-0 border-b focus:ring-0 border-red-600 focus:border-red-600"
+                    className="px-1 outline-none border p-2 border-b focus:ring-0 border-gray-300 focus:border-green-500 rounded-md"
                     name="email"
                   />
                   <input
                     type="text"
-                    className="px-1 outline-none border-0 border-b focus:ring-0 border-red-600 focus:border-red-600"
+                    className="px-1 outline-none border p-2 border-b focus:ring-0 border-gray-300 focus:border-green-500 rounded-md"
                     placeholder="Phone*"
                     name="phone"
                   />
                   <select
                     id="type"
-                    className="px-1 outline-none border-0 border-b focus:ring-0 border-gray-400 focus:border-gray-900"
+                    className="px-1 outline-none border p-2 border-b focus:ring-0 border-gray-300 focus:border-green-500 rounded-md"
                     name="type"
                   >
                     <option>Buy</option>
                     <option>Sell</option>
                   </select>
                   <textarea
-                    className="h-64 px-1 outline-none border-0 border-b md:col-span-2 focus:ring-0 border-red-600 focus:border-red-600"
+                    className="h-44 px-1 outline-none border rounded-md border-gray-300 md:col-span-2 focus:ring-0  focus:border "
                     placeholder="Message*"
                     name="message"
                   ></textarea>

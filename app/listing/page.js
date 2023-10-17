@@ -11,7 +11,7 @@ export default function PropertyListing() {
 
   return (
     <main className="flex flex-col flex-1">
-      <div className="absolute top-[9vh] z-[1]">
+      <div className="absolute top-[11vh] z-[1]">
         <Image
           src="/banners/bg1.jpeg"
           width={3000}
