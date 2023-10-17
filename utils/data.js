@@ -170,6 +170,7 @@ export const ForRent = [
     // bath: 2.5,
     price: "Ksh24,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/2bedroom-apartment-for-rent-Kiamunyi-NakuruRent-24k/1.jpeg",
       "/2bedroom-apartment-for-rent-Kiamunyi-NakuruRent-24k/3.jpeg",
@@ -208,6 +209,7 @@ export const ForRent = [
     // bath: 2.5,
     price: "Ksh18,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/2bedroom-master-apartment-rent-Pipeline18k/1.jpeg",
       "/2bedroom-master-apartment-rent-Pipeline18k/3.jpeg",
@@ -247,6 +249,7 @@ export const ForRent = [
     // bath: 4.5,
     price: "Ksh30,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/Exquisite2bedroom-master-apartment-Rent - 30k/1.jpeg",
       "/Exquisite2bedroom-master-apartment-Rent - 30k/3.jpeg",
@@ -297,6 +300,7 @@ export const ForRent = [
     // bath: 2.5,
     price: "Ksh20,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/apartment-Rent-20k-Kiamunyi-Nakuru/3.jpeg",
       "/apartment-Rent-20k-Kiamunyi-Nakuru/6.jpeg",
@@ -344,6 +348,7 @@ export const ForRent = [
     // bath: 2.5,
     price: "Ksh5,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/bedsitters-Pipeline-Nakuru-Rent-5k/1.jpeg",
       "/bedsitters-Pipeline-Nakuru-Rent-5k/2.jpeg",
@@ -382,6 +387,7 @@ export const ForRent = [
     // bath: 2.5,
     price: "Ksh13,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/bedsitters-Kiamunyi-Nakuru-Rent-13k/1.jpeg",
       "/bedsitters-Kiamunyi-Nakuru-Rent-13k/2.jpeg",
@@ -423,6 +429,7 @@ export const ForRent = [
     // bath: 2.5,
     price: "Ksh50,000",
     type: "Rent",
+    propertyType: "owncompound",
     images: [
       "/4bedroom-home-0.25 acre-50k/1.jpeg",
       "/4bedroom-home-0.25 acre-50k/1.jpeg",
@@ -456,6 +463,7 @@ export const ForRent = [
     // bath: 2.5,
     price: "Ksh18,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/2Bedroom-KiamunyiRent18k/7.jpeg",
       "/2Bedroom-KiamunyiRent18k/1.jpeg",
@@ -490,11 +498,12 @@ export const ForRent = [
     id: 108,
     heading1: "Strategically Located Shops for Rent",
     heading2: "Kiamunyi, Nakuru.",
-    // beds: 2,
+    beds: 0,
     sf: 1916,
     // bath: 2.5,
     price: "Ksh7,000",
     type: "Rent",
+    propertyType: "shop",
     images: [
       "/ShopsRentKiamunyiNakuruRent7k/1.jpeg",
       "/ShopsRentKiamunyiNakuruRent7k/2.jpeg",
@@ -527,6 +536,7 @@ export const ForRent = [
     bath: 1,
     price: "Ksh13,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/1bedroomapartmentWhiteHouse,Nakuru13k/1.jpeg",
       "/1bedroomapartmentWhiteHouse,Nakuru13k/2.jpeg",
@@ -560,6 +570,7 @@ export const ForRent = [
     // bath: 1,
     price: "Ksh30,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/3bedroomapartmentNakuru30k/1.jpeg",
       "/3bedroomapartmentNakuru30k/2.jpeg",
@@ -588,11 +599,12 @@ export const ForRent = [
     id: 111,
     heading1: "Hyrax Hill Apartment",
     heading2: "White House, Nakuru",
-    // beds: 3,
+    beds: 2,
     sf: 1916,
     // bath: 1,
     price: "Ks23,000",
     type: "Rent",
+    propertyType: "apartment",
     images: [
       "/HyraxHillApartment23kWhiteHouseNakuru/7.jpeg",
       "/HyraxHillApartment23kWhiteHouseNakuru/1.jpeg",
@@ -632,6 +644,8 @@ export const ForSale = [
     // bath: 3,
     price: "5.7M",
     type: "Buy",
+    propertyType: "owncompound",
+
     images: [
       "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/9.jpeg",
       "/Home-in-Kiamunyi-Nakuru-Sale-price5.7m/1.jpeg",
@@ -680,6 +694,7 @@ export const ForSale = [
     price: "4.7M",
     rating: 4.7,
     type: "Buy",
+    propertyType: "owncompound",
     bath: 2,
     sf: 3200,
     beds: 2,
@@ -805,6 +820,7 @@ export const FeaturedData = [
     heading: "2bedroom Master Ensuite",
     heading2: "Kiamunyi, Nakuru",
     name: "Master Ensuite",
+    propertyType: "apartment",
     images: [
       "/2bedroom EnsuiteKiamunyiNakuru27k/1.jpeg",
       "/2bedroom EnsuiteKiamunyiNakuru27k/2.jpeg",
@@ -848,6 +864,7 @@ export const FeaturedData = [
   {
     heading: "Affordable Bungalow",
     heading2: "Kiamunyi, Nakuru",
+    propertyType: "owncompound",
     name: "Colt Stelle",
     images: [
       "/BungalowSaleKiamunyiNakuru/1.jpeg",
@@ -894,6 +911,7 @@ export const FeaturedData = [
     id: 303,
     heading: "Affordable 2 Bedroom",
     heading2: "Kiamunyi, Nakuru.",
+    propertyType: "apartment",
     beds: 2,
     sf: 1916,
     rating: 4.7,
@@ -934,6 +952,7 @@ export const FeaturedData = [
     id: 302,
     heading: "2 bedroom ensuite apartment",
     heading2: "Milimani, Nakuru.",
+    propertyType: "apartment",
     beds: 2,
     sf: 1916,
     bath: 1,
@@ -985,6 +1004,7 @@ export const FeaturedData = [
     id: 306,
     heading: "Shops for Rent",
     heading2: "Kiamunyi, Nakuru.",
+    propertyType: "shop",
     // beds: 2,
     sf: 1916,
     // bath: 2.5,
@@ -1018,6 +1038,7 @@ export const FeaturedData = [
     id: 307,
     heading: "Noble Home",
     heading2: "Kiamunyi",
+    propertyType: "owncompound",
     beds: 3,
     sf: "1/4 acre",
     // bath: 3,
