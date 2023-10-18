@@ -10,7 +10,7 @@ const Land = () => {
       <div className="pb-0">
         <div className="absolute xxxs:top-[9vh] lg:top-[11vh] z-[1]">
           <Image
-            src="/banners/bg4.jpeg"
+            src="/banners/bg5.jpeg"
             width={3000}
             height={3000}
             alt="bg"
