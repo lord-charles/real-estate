@@ -58,7 +58,7 @@ const Banner = () => {
 
             <div className="rounded-md bg-black mt-4">
               <h1
-                className="underline lg:text-[40px] xxxs:text-[20px]  font-semibold text-center text-white  px-2  relative top-[-5px] custom-font-p w-fit "
+                className="underline lg:text-[40px] xxxs:text-[20px]  font-semibold text-center text-white  px-2  relative top-[-4px] custom-font-p w-fit "
                 // style={{ fontFamily: "Helvetica, sans-serif" }}
               >
                 The way and the truth
