@@ -153,7 +153,9 @@ const About = () => {
               </div>
 
               <div>
-                <p>Sale of property (commercial and residential)</p>
+                <p className="text-purple-400 text-[20px] font-semibold py-1">
+                  Sale of property (commercial and residential)
+                </p>
                 <p>
                   At Rift Homes we take care of the real estate investors as
                   well. We will save you from the hustle of property showing,
