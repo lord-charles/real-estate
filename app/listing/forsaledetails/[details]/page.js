@@ -20,7 +20,7 @@ const PropertyDetail = ({ params }) => {
           />
         </div>
       </div>
-      <div className="px-6 py-20 mt-[340px]">
+      <div className="px-6 py-5 mt-[340px]">
         <div className="relative max-w-6xl pt-16 pb-10 mx-auto md:pt-20">
           <h1 className="md:text-3xl lg:text-3xl  xxxs:text-2xl  leading-10 text-center uppercase font-heading">
             {ForSale[details - 1].heading1}
