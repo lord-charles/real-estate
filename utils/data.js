@@ -679,7 +679,7 @@ export const ForSale = [
     ],
   },
   {
-    heading: "Affordable Bungalow",
+    heading1: "Affordable Bungalow",
     heading2: "Kiamunyi, Nakuru",
     name: "Affordable Bungalow",
     images: [
@@ -821,7 +821,7 @@ export const blogs = [
 
 export const FeaturedData = [
   {
-    heading: "2bedroom Master Ensuite",
+    heading1: "2bedroom Master Ensuite",
     heading2: "Kiamunyi, Nakuru",
     name: "Master Ensuite",
     propertyType: "apartment",
@@ -866,7 +866,7 @@ export const FeaturedData = [
     ],
   },
   {
-    heading: "Affordable Bungalow",
+    heading1: "Affordable Bungalow",
     heading2: "Kiamunyi, Nakuru",
     propertyType: "owncompound",
     name: "Bungalow",
@@ -913,7 +913,7 @@ export const FeaturedData = [
   },
   {
     id: 303,
-    heading: "Affordable 2 Bedroom",
+    heading1: "Affordable 2 Bedroom",
     heading2: "Kiamunyi, Nakuru.",
     name: "2 Bedroom",
     propertyType: "apartment",
@@ -955,7 +955,7 @@ export const FeaturedData = [
   },
   {
     id: 302,
-    heading: "2 bedroom ensuite apartment",
+    heading1: "2 bedroom ensuite apartment",
     heading2: "Milimani, Nakuru.",
     name: "2 Bedroom ensuite",
     propertyType: "apartment",
@@ -1008,7 +1008,7 @@ export const FeaturedData = [
   },
   {
     id: 304,
-    heading: "Shops for Rent",
+    heading1: "Shops for Rent",
     heading2: "Kiamunyi, Nakuru.",
     propertyType: "shop",
     name: "Shops",
@@ -1043,7 +1043,7 @@ export const FeaturedData = [
   },
   {
     id: 305,
-    heading: "Noble Home",
+    heading1: "Noble Home",
     heading2: "Kiamunyi",
     propertyType: "owncompound",
     name: "Noble Home",
@@ -1204,7 +1204,3 @@ export const AirbnbsData = [
     ],
   },
 ];
-
-
-
-

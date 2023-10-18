@@ -9,18 +9,20 @@ const Gallery = () => {
   return (
     <main className="flex flex-col flex-1">
       <div className="pb-0">
-        <div className="bg-brand-accent relative ">
-          <div className="relative max-w-6xl pt-16 pb-10 mx-auto md:pt-20">
-            <h1 className="text-3xl leading-10 text-center uppercase font-heading font-semibold">
-              Gallery
-            </h1>
-          </div>
-          <div
-            className="w-full h-24 bg-bottom bg-cover"
-            style={{ backgroundImage: 'url("/subhero-bg.jpg")' }}
-          ></div>
+        <div className="absolute xxxs:top-[9vh] lg:top-[11vh] z-[1]">
+          <Image
+            src="/banners/bg1.jpeg"
+            width={3000}
+            height={3000}
+            alt="bg"
+            className="object-cover w-screen lg:h-[27rem] md:h-[27rem] xxxs:h-[25rem] blur-[0px]"
+          />
         </div>
-        <section className="px-6 py-12">
+
+        <section className="px-6 py-12 mt-[400px]">
+          <h1 className="text-3xl leading-10 text-center uppercase font-heading font-semibold">
+            Gallery
+          </h1>
           <div className="relative max-w-6xl mx-auto">
             <div className="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3">
               {/* Repeat the following code block for each item */}

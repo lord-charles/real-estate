@@ -5,18 +5,22 @@ const Contact = () => {
   return (
     <main className="flex flex-col flex-1">
       <div className="pb-0">
-        <div className="bg-brand-accent relative">
+        <div className="absolute top-[11vh] z-[1]">
+          <Image
+            src="/banners/bg4.jpeg"
+            width={3000}
+            height={3000}
+            alt="bg"
+            className="object-cover w-screen lg:h-[27rem] md:h-[27rem] xxxs:h-[25rem] blur-[0px]"
+          />
+        </div>
+        <div className="px-6 py-12 mt-[340px]">
           <div className="relative max-w-6xl pt-16 pb-10 mx-auto md:pt-20">
             <h1 className=" font-semibold text-3xl leading-10 text-center uppercase font-heading">
               Contact Us
             </h1>
           </div>
-          <div
-            className="w-full h-24 bg-bottom bg-cover"
-            style={{ backgroundImage: 'url("/subhero-bg.jpg")' }}
-          ></div>
-        </div>
-        <div className="px-6 py-12">
+
           <div className="max-w-6xl mx-auto">
             <div className="mt-6 space-y-5 md:flex md:items-center md:space-y-0 md:space-x-5">
               {/* Address */}

@@ -10,21 +10,25 @@ const PropertyDetail = ({ params }) => {
   return (
     <div className="w-screen overflow-x-hidden">
       <div className="bg-brand-accent relative mt-0">
+        <div className="absolute top-[0vh] z-[1]">
+          <Image
+            src="/banners/bg5.jpeg"
+            width={3000}
+            height={3000}
+            alt="bg"
+            className="object-cover w-screen lg:h-[27rem] md:h-[27rem] xxxs:h-[25rem] blur-[0px]"
+          />
+        </div>
+      </div>
+      <div className="px-6 py-20 mt-[340px]">
         <div className="relative max-w-6xl pt-16 pb-10 mx-auto md:pt-20">
           <h1 className="md:text-3xl lg:text-3xl  xxxs:text-2xl  leading-10 text-center uppercase font-heading">
-            {ForSale[details - 1].heading}
+            {ForSale[details - 1].heading1}
           </h1>
           <p className="mt-2 text-center text-gray-700">
             {ForSale[details - 1].heading2}
           </p>
         </div>
-
-        <div
-          className="w-full h-24 bg-bottom bg-cover"
-          style={{ backgroundImage: 'url("/subhero-bg.jpg")' }}
-        ></div>
-      </div>
-      <div className="px-6 py-20">
         <div className="max-w-6xl mx-auto">
           <div className="space-y-6 md:flex md:space-x-12 md:justify-between md:space-y-0">
             <div className="flex flex-1 xxxs:space-x-4 md:space-x-8 lg:space-x-8">
