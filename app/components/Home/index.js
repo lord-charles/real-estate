@@ -21,7 +21,7 @@ export default function HomeListings() {
       <div className="max-w-6xl mx-auto pt-4  relative">
         {RecentOffers.length > 0 && (
           <div className="m-2 mb-10">
-            <div className="sm:flex justify-between items-center relative xxxs:top-10 md:top-3 lg:top-3 pb-7">
+            <div className="sm:flex justify-between items-center pb-4">
               <h3 className="text-midnightblue text-2xl lg:text-[25px] font-semibold mb-0 xxxs:text-[20px]">
                 Upcoming
               </h3>
@@ -41,7 +41,7 @@ export default function HomeListings() {
         )}
         {ForRent && ForRent.length > 0 && (
           <div className="m-2 relative top-[20px]">
-            <div className="sm:flex justify-between items-center relative xxxs:top-10 md:top-3 lg:top-3 pb-7">
+            <div className="sm:flex justify-between items-center  pb-4">
               <h3 className="text-midnightblue text-2xl lg:text-[25px] font-semibold mb-0 xxxs:text-[20px]">
                 Rentals
               </h3>
@@ -61,7 +61,7 @@ export default function HomeListings() {
         )}
         {ForSale && ForSale.length > 0 && (
           <div className="m-2 mb-9 relative top-[40px]">
-            <div className="sm:flex justify-between items-center relative xxxs:top-10 md:top-3 lg:top-3 pb-7">
+            <div className="sm:flex justify-between items-center  pb-4">
               <h3 className="text-midnightblue text-2xl lg:text-[25px] font-semibold mb-0 xxxs:text-[20px]">
                 For Sale
               </h3>
