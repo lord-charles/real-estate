@@ -87,7 +87,7 @@ export default class MultipleItems extends Component {
               </p>
             </div>
           </div>
-          <div className="sm:flex justify-between items-center relative xxxs:top-10 md:top-3 lg:top-3">
+          <div className="sm:flex justify-between items-center ">
             <h3 className="text-midnightblue text-2xl lg:text-[25px] font-semibold mb-0 xxxs:text-[20px]">
               FEATURED LISTING
             </h3>
@@ -116,7 +116,7 @@ export default class MultipleItems extends Component {
           <Slider {...settings}>
             {FeaturedData.map((items, i) => (
               <div key={i}>
-                <div className="bg-white m-3 px-0 pt-3 pb-12 my-20 shadow-courses rounded-2xl">
+                <div className="bg-white m-3 px-0  pb-12 my-10 shadow-courses rounded-2xl">
                   <div className="relative rounded-3xl">
                     <Image
                       src={items.images[0]}
@@ -142,7 +142,7 @@ export default class MultipleItems extends Component {
 
                   <div className="px-3">
                     <h4 className="text-xl font-bold pt-6 text-black">
-                      {items.heading}
+                      {items.heading1}
                     </h4>
 
                     <div>
