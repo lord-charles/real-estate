@@ -68,7 +68,7 @@ export default function PropertyListing() {
 
   return (
     <main className="flex flex-col flex-1">
-      <div className="absolute top-[11vh] z-[1]">
+      <div className="absolute xxxs:top-[9vh] lg:top-[11vh] z-[1]">
         <Image
           src="/banners/bg1.jpeg"
           width={3000}
@@ -85,7 +85,7 @@ export default function PropertyListing() {
             </h1>
           </div>
         </div>
-        <div className="px-2 py-12">
+        <div className="px-2 py-10">
           <div className="max-w-6xl mx-auto">
             <div className="flex justify-center">
               <div className="flex justify-center">
@@ -105,7 +105,7 @@ export default function PropertyListing() {
                         className="ml-auto text-sm text-gray-600 lg:hidden"
                         onClick={() => setShow(!show)}
                       >
-                        {show ? "Hide" : "Show"}
+                        {show ? "Show" : "Hide"}
                       </button>
                     </h3>
                   </div>
@@ -214,7 +214,7 @@ export default function PropertyListing() {
                   </div>
                 )}
 
-                <div className=" p-8 flex justify-center">
+                <div className=" pt-8 flex justify-center">
                   <Stack spacing={2} justifyContent="center" mt={2}>
                     <Pagination
                       count={totalPages}
