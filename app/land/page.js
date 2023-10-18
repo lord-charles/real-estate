@@ -33,7 +33,7 @@ const Land = () => {
                 height={400}
                 className="w-[400px]"
               />
-              <p className="absolute top-[70rem] text-gray-500 text-[15px] py-2 text-center">
+              <p className="absolute top-[65rem] text-gray-500 text-[15px] py-2 text-center">
                 Please come back later
               </p>
             </div>
