@@ -13,7 +13,7 @@ const PropertyDetail = ({ params }) => {
     <div className="w-screen overflow-x-hidden">
       <div className="bg-brand-accent relative mt-0"></div>
 
-      <div className="absolute top-[11vh] z-[1]">
+      <div className="absolute xxxs:top-[9vh] lg:top-[11vh] z-[1]">
         <Image
           src="/banners/bg5.jpeg"
           width={3000}
