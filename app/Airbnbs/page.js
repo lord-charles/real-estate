@@ -21,8 +21,8 @@ const Airbnbs = () => {
             />
           </div>
         </div>
-        <section className="px-6 py-12 relative mt-[25vh] ">
-          <div className=" z-10 relative max-w-6xl pt-16 pb-1 mt-[100px] mx-auto md:pt-20 flex justify-center">
+        <section className="py-10 relative mt-[25vh] ">
+          <div className="relative max-w-6xl pt-16 pb-1 mt-[100px] mx-auto md:pt-20 flex justify-center">
             <h1 className="text-3xl leading-10 text-white  text-center uppercase font-heading font-semibold bg-black w-fit p-1 rounded-md">
               Airbnbs
             </h1>
