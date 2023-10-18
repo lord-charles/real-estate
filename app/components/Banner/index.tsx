@@ -4,14 +4,29 @@ import Image from "next/image";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Divider, IconButton } from "@mui/material";
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
+import toast from "react-hot-toast";
+import { useRouter } from "next/navigation";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
 const Banner = () => {
+  const [navigation, setnavigation] = useState("");
+
+  const router = useRouter();
+
+  const handleNavigation = () => {
+    if (navigation.length < 2) {
+      toast.error(
+        "Please select at least one option to search(must include rent or buy)"
+      );
+    }
+    router.push(navigation);
+  };
+
   return (
     <div
       id="home-section"
@@ -57,67 +72,6 @@ const Banner = () => {
                 <Menu as="div" className="relative text-left ">
                   <div>
                     <Menu.Button className="flex gap-3 items-center xxxs:w-[78vw] md:w-auto lg:w-auto justify-between">
-                      <h2 className="font-semibold block text-black">Buy</h2>
-                      <ExpandMoreIcon />
-                    </Menu.Button>
-                  </div>
-
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-100"
-                    enterFrom="transform opacity-0 scale-95"
-                    enterTo="transform opacity-100 scale-100"
-                    leave="transition ease-in duration-75"
-                    leaveFrom="transform opacity-100 scale-100"
-                    leaveTo="transform opacity-0 scale-95"
-                  >
-                    <Menu.Items className="absolute left-[-9px]  mt-7 w-[90px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-[999]">
-                      <div className="py-1">
-                        <Menu.Item>
-                          {({ active }) => (
-                            <a
-                              href="#"
-                              className={classNames(
-                                active
-                                  ? "bg-gray-100 text-gray-900"
-                                  : "text-gray-700",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              Buy
-                            </a>
-                          )}
-                        </Menu.Item>
-                      </div>
-                      <div className="py-1">
-                        <Menu.Item>
-                          {({ active }) => (
-                            <a
-                              href="#"
-                              className={classNames(
-                                active
-                                  ? "bg-gray-100 text-gray-900"
-                                  : "text-gray-700",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              Sell
-                            </a>
-                          )}
-                        </Menu.Item>
-                      </div>
-                    </Menu.Items>
-                  </Transition>
-                </Menu>
-              </div>
-            </div>
-            <Divider />
-
-            <div className="flex justify-between space-x-2 md:w-[110px]  lg:w-[110px] xxxs:w-[90vw] bg-white p-6 cursor-pointer">
-              <div className="">
-                <Menu as="div" className="relative text-left ">
-                  <div>
-                    <Menu.Button className="flex gap-3 items-center xxxs:w-[78vw] md:w-auto lg:w-auto justify-between">
                       <h2 className="font-semibold block text-black">Rent</h2>
                       <ExpandMoreIcon />
                     </Menu.Button>
@@ -144,8 +98,27 @@ const Banner = () => {
                                   : "text-gray-700",
                                 "block px-4 py-2 text-sm"
                               )}
+                              onClick={() => setnavigation("/listing")}
                             >
                               Rent
+                            </a>
+                          )}
+                        </Menu.Item>
+                      </div>
+                      <div className="py-1">
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                              onClick={() => setnavigation("/sale")}
+                            >
+                              Buy
                             </a>
                           )}
                         </Menu.Item>
@@ -398,7 +371,10 @@ const Banner = () => {
             <Divider />
 
             <div className="bg-white flex justify-center items-center md:w-[170px]  lg:w-[170px] xxxs:w-[90vw] py-3">
-              <button className=" h-[50px] cursor-pointer bg-Blueviolet  hover:bg-semiblueviolet  hover:text-white text-Blueviolet font-medium px-4 rounded-full">
+              <button
+                className=" h-[50px] cursor-pointer bg-Blueviolet  hover:bg-semiblueviolet  hover:text-white text-Blueviolet font-medium px-4 rounded-full"
+                onClick={() => handleNavigation()}
+              >
                 <h2 className="font-semibold text-white text-[16px] text-center px-7 ">
                   Search
                 </h2>

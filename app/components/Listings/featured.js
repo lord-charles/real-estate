@@ -92,7 +92,7 @@ export default class MultipleItems extends Component {
               FEATURED LISTING
             </h3>
             <Link
-              href={"/"}
+              href={"/featured"}
               className="text-Blueviolet text-[16px] font-medium space-links"
             >
               View more&nbsp;&gt;&nbsp;

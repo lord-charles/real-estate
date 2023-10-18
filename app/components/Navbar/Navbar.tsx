@@ -139,7 +139,7 @@ const Navbar = () => {
                             <Menu.Item>
                               {({ active }) => (
                                 <Link
-                                  href="/homeforsale"
+                                  href="/sale"
                                   className={classNames(
                                     active
                                       ? "bg-gray-100 text-gray-900"
@@ -156,7 +156,7 @@ const Navbar = () => {
                             <Menu.Item>
                               {({ active }) => (
                                 <Link
-                                  href="/landforsale"
+                                  href="/land"
                                   className={classNames(
                                     active
                                       ? "bg-gray-100 text-gray-900"

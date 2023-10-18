@@ -21,12 +21,17 @@ export default function HomeListings() {
       <div className="max-w-6xl mx-auto pt-4  relative">
         {RecentOffers.length > 0 && (
           <div className="m-2 mb-10">
-            <h2 className="px-3 text-2xl mt-6 font-semibold">Upcoming</h2>
-            <Link href="">
-              <p className="px-3 text-sm text-Blueviolet text-[16px] font-medium space-linkshover:text-blue-800 transition duration-150 ease-in-out">
-                Show more offers
-              </p>
-            </Link>
+            <div className="sm:flex justify-between items-center relative xxxs:top-10 md:top-3 lg:top-3 pb-7">
+              <h3 className="text-midnightblue text-2xl lg:text-[25px] font-semibold mb-0 xxxs:text-[20px]">
+                Upcoming
+              </h3>
+              <Link
+                href={"/upcoming"}
+                className="text-Blueviolet text-[16px] font-medium space-links"
+              >
+                View more&nbsp;&gt;&nbsp;
+              </Link>
+            </div>
             <ul className="grid xxxs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
               {RecentOffers.map((listing, index) => (
                 <ListingItem key={index} listing={listing} />
@@ -36,16 +41,19 @@ export default function HomeListings() {
         )}
         {ForRent && ForRent.length > 0 && (
           <div className="m-2 relative top-[20px]">
-            <h2 className="px-3 text-2xl mt-6 font-semibold">
-              Places for rent
-            </h2>
-            <Link href="">
-              <p className="px-3 text-sm hover:text-blue-800 transition duration-150 ease-in-out text-Blueviolet text-[16px] font-medium space-links">
-                Show more places for rent
-              </p>
-            </Link>
+            <div className="sm:flex justify-between items-center relative xxxs:top-10 md:top-3 lg:top-3 pb-7">
+              <h3 className="text-midnightblue text-2xl lg:text-[25px] font-semibold mb-0 xxxs:text-[20px]">
+                Rentals
+              </h3>
+              <Link
+                href={"/listing"}
+                className="text-Blueviolet text-[16px] font-medium space-links"
+              >
+                View more&nbsp;&gt;&nbsp;
+              </Link>
+            </div>
             <ul className="grid xxxs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
-              {ForRent.map((listing, index) => (
+              {ForRent.slice(0, 8).map((listing, index) => (
                 <ListingItem1 key={index} listing={listing} />
               ))}
             </ul>
@@ -53,14 +61,17 @@ export default function HomeListings() {
         )}
         {ForSale && ForSale.length > 0 && (
           <div className="m-2 mb-9 relative top-[40px]">
-            <h2 className="px-3 text-2xl mt-6 font-semibold">
-              Places for sale
-            </h2>
-            <Link href="">
-              <p className="px-3 text-sm text-Blueviolet text-[16px] font-medium space-linkshover:text-blue-800 transition duration-150 ease-in-out">
-                Show more places for sale
-              </p>
-            </Link>
+            <div className="sm:flex justify-between items-center relative xxxs:top-10 md:top-3 lg:top-3 pb-7">
+              <h3 className="text-midnightblue text-2xl lg:text-[25px] font-semibold mb-0 xxxs:text-[20px]">
+                For Sale
+              </h3>
+              <Link
+                href={"/sale"}
+                className="text-Blueviolet text-[16px] font-medium space-links"
+              >
+                View more&nbsp;&gt;&nbsp;
+              </Link>
+            </div>
             <ul className="grid xxxs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
               {ForSale.map((listing, index) => (
                 <ListingItem2 key={index} listing={listing} />

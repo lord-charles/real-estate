@@ -13,6 +13,8 @@ const navigation: NavigationItem[] = [
   { name: "Home", href: "/", current: true },
   { name: "Rentals", href: "/listing", current: false },
   { name: "Airbnbs", href: "/Airbnbs", current: false },
+  { name: "Home for sale", href: "/sale", current: false },
+  { name: "Land for sale", href: "/land", current: false },
   { name: "Contact", href: "/contact", current: false },
   { name: "Gallery", href: "/gallery", current: false },
   { name: "Agents", href: "/Agents", current: false },
