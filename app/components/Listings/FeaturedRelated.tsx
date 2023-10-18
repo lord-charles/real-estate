@@ -93,7 +93,7 @@ export default class MultipleItems extends Component {
 
                   <div className="px-3">
                     <h4 className="text-xl font-bold pt-6 text-black">
-                      {items.heading}
+                      {items.heading1}
                     </h4>
 
                     <div>
