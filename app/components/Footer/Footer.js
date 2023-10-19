@@ -42,7 +42,7 @@ const Footer = () => {
                       <Link className="text-gray-300" href="/#">
                         Home
                       </Link>
-                      <Link className="text-gray-300" href="/#">
+                      <Link className="text-gray-300" href="/about">
                         About us
                       </Link>
                       <Link className="text-gray-300" href="/listing">
@@ -182,9 +182,12 @@ const Footer = () => {
 
             {/* All Rights Reserved */}
             <div className="py-4 md:flex justify-between ">
-              <h4 className=" opacity-75  text-center md:text-start text-sm text-gray-400">
-                Designed & developed by charlesmwaniki.com
-              </h4>
+              <Link
+                href="https://charlesmwaniki.com/"
+                className=" opacity-75  text-center md:text-start text-sm text-gray-400"
+              >
+                Developed by charlesmwaniki.com
+              </Link>
               <div className="flex gap-5 mt-5 md:mt-0 justify-center md:justify-start">
                 <h4 className="text-gray-400 opacity-75 text-sm font-normal">
                   <Link href="/" target="_blank">
