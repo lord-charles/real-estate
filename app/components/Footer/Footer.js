@@ -85,6 +85,20 @@ const Footer = () => {
             <div className="pt-8 mt-8 border-t border-gray-700 md:flex md:items-center md:justify-between ">
               <div className="flex space-x-6 md:order-2 xxxs:justify-center">
                 <a
+                  href="https://youtube.com/@ezraondaratv?si=D_EevkifT-ckUKzv"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-gray-400 hover:text-gray-300"
+                >
+                  <span className="sr-only">YouTube</span>
+                  <Image
+                    src={"/icons/youtube-icon.png"}
+                    alt="icon"
+                    width={25}
+                    height={25}
+                  />
+                </a>
+                <a
                   href="https://facebook.com/"
                   target="_blank"
                   rel="noopener"
@@ -149,20 +163,6 @@ const Footer = () => {
                   <span className="sr-only">TikTok</span>
                   <Image
                     src={"/icons/tiktok-icon.png"}
-                    alt="icon"
-                    width={25}
-                    height={25}
-                  />
-                </a>
-                <a
-                  href="https://dribbble.com/"
-                  target="_blank"
-                  rel="noopener"
-                  className="text-gray-400 hover:text-gray-300"
-                >
-                  <span className="sr-only">YouTube</span>
-                  <Image
-                    src={"/icons/youtube-icon.png"}
                     alt="icon"
                     width={25}
                     height={25}
