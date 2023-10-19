@@ -74,7 +74,6 @@ const Footer = () => {
                     />
                     <button
                       className="px-4 py-3 font-medium text-white rounded-r bg-lime-600 focus:outline-none"
-                      type="submit"
                       onClick={() => toast.success("success")}
                     >
                       Subscribe
