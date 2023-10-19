@@ -15,7 +15,7 @@ const Index = () => {
                 objectFit="cover"
               />
             </div>
-            <div className="absolute flex w-40 h-40 p-1.5 bg-white rounded-full inset-auto lg:-right-32">
+            <div className="absolute flex lg:w-40 lg:h-40 xxxs:w-[120px] xxxs:h-[120px] p-1.5 bg-white rounded-full inset-auto lg:-right-32 md:right-[30px] md:top-[200px] xxxs:top-[250px] xxxs:right-[20px]">
               <div className="flex flex-col items-center justify-center w-full h-full border border-red-600 border-dashed rounded-full font-heading">
                 <span className="font-medium text-red-600 uppercase">
                   STARTING AT
