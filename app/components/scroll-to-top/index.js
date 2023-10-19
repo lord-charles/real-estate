@@ -9,12 +9,12 @@ import ArrowUp from 'mdi-material-ui/ArrowUp'
 import Image from 'next/image';
 
 
-const ScrollToTopStyled = styled('div')(({ theme }) => ({
+const ScrollToTopStyled = styled("div")(({ theme }) => ({
   zIndex: 11,
-  position: 'fixed',
-  right: theme.spacing(6),
-  bottom: theme.spacing(10)
-}))
+  position: "fixed",
+  right: theme.spacing(2),
+  bottom: theme.spacing(5),
+}));
 
 
 
