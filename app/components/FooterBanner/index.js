@@ -10,7 +10,7 @@ const Index = () => {
             <div className="relative w-full h-full border-8 border-white shadow-2xl lg:scale-125 ring-1 ring-gray-100">
               <Image
                 alt="Featured Villa"
-                src="/assets/listings/l3.webp"
+                src="/huddenroofbungalow/1.jpeg"
                 layout="fill"
                 objectFit="cover"
               />
@@ -20,16 +20,20 @@ const Index = () => {
                 <span className="font-medium text-red-600 uppercase">
                   STARTING AT
                 </span>
-                <span className="text-xl f text-red-600">ksh 25,000</span>
+                <span className="text-xl f text-red-600">5.8M</span>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center w-full lg:ml-20">
             <div className="max-w-sm pt-20 pb-10 text-center text-white lg:pt-10">
-              <h3 className="text-4xl font-medium uppercase">Rose villa</h3>
-              <p className="max-w-[19rem] opacity-80 mt-3 text-xl font-light leading-9 uppercase font-heading">
-                1, 2, 3 & 4 BHK - pay 20% & move-in first 20 EMI free
-              </p>
+              <h3 className="text-4xl font-medium uppercase">
+                3-BEDROOM HIDDEN ROOF BUNGALOW
+                <br />
+                <a className="text-center text-white  text-[17px] font-normal">
+                  Kiamunyi, Nakuru
+                </a>
+              </h3>
+
               <div className="mt-4">
                 <button className="inline-flex px-5 py-3 text-white border rounded-full border-cyan-200 focus:outline-none">
                   <svg

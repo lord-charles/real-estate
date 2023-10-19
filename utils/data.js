@@ -636,6 +636,77 @@ export const ForRent = [
       },
     ],
   },
+  {
+    id: 112,
+    heading1: "2-Bedroom Apartments",
+    heading2: "Pipeline, Nakuru",
+    beds: 2,
+    sf: 1916,
+    bath: 1,
+    price: "Ks20,000",
+    type: "Rent",
+    propertyType: "apartment",
+    images: [
+      "/2bedroom-master-ensuite-apartments-Pipeline/1.jpeg",
+      "/2bedroom-master-ensuite-apartments-Pipeline/2.jpeg",
+      "/2bedroom-master-ensuite-apartments-Pipeline/3.jpeg",
+    ],
+    points: [
+      "Immaculately finished 2-bedroom master ensuite apartments with a touch of luxury",
+      "Spacious and well-lit living areas for a sense of openness",
+      "Convenient location in Pipeline, Nakuru",
+      "Affordable monthly rent of 20,000 Ksh",
+    ],
+    time: Date.now() - 259200000,
+    description:
+      "Step into a world of refined elegance and comfort with these impeccably finished 2-bedroom master ensuite apartments in the vibrant neighborhood of Pipeline, Nakuru. These thoughtfully designed abodes offer a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal haven for couples and small families seeking a luxurious and well-appointed living space.",
+    richDescription:
+      "Discover a sanctuary of elegance and comfort with these immaculately finished 2-bedroom master ensuite apartments in Pipeline, Nakuru. These impeccably designed apartments exude an air of sophistication and warmth, offering a haven for those seeking a refined living experience. Each apartment boasts two well-appointed bedrooms, including a luxurious master ensuite that provides a private retreat. The modern and well-equipped kitchens cater to all your culinary needs, while the serene balconies offer panoramic views, providing a tranquil escape from the bustling city life. The secure and well-maintained building ensures peace of mind, allowing you to enjoy the comforts of your home without worries. Situated in the vibrant neighborhood of Pipeline, Nakuru, these apartments place you within close proximity to an array of amenities, including shopping centers, restaurants, and recreational facilities. Explore the city's vibrant attractions and easily return to your cozy haven at the end of the day. At an affordable monthly rent starting at 20,000 Ksh, these immaculately finished 2-bedroom master ensuite apartments offer exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of luxury, comfort, and convenience.",
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking space",
+      },
+    ],
+  },
+  {
+    id: 113,
+    heading1: "3-Bedroom Home",
+    heading2: "Kiamunyi, Nakuru",
+    beds: 3,
+    sf: 1916,
+    bath: 1,
+    price: "Ksh35,000",
+    type: "Rent",
+    propertyType: "owncompound",
+    images: [
+      "/3bedroomhomeKiamunyi5.9m/1.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/2.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/3.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/4.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/5.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/6.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/7.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/8.jpeg",
+    ],
+    points: [
+      "Spacious 3-bedroom home with ample living space",
+      "Lush compound offering ample outdoor space for landscaping and recreation",
+      "Convenient location in Kiamunyi, Nakuru",
+      "Affordable asking price of 5.9 Million Ksh",
+    ],
+    time: Date.now() - 259200000,
+    description:
+      "Discover a haven of comfort and sophistication with this impeccably designed 3-bedroom home nestled in the serene neighborhood of Kiamunyi, Nakuru. This spacious abode offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for families seeking a luxurious and well-appointed home.",
+    richDescription:
+      "Embrace a lifestyle of elegance and tranquility with this exquisite 3-bedroom home in Kiamunyi, Nakuru. This impeccably designed home exudes an air of sophistication and warmth, offering a haven for families seeking a spacious and luxurious living space. The home's layout is designed for effortless living, with three well-appointed bedrooms, a modern kitchen that caters to all your culinary needs, and a serene balcony that offers panoramic views. The generous compound provides ample outdoor space, allowing you to create a tranquil garden, host outdoor gatherings, or simply enjoy the fresh air and serenity of your surroundings. Situated in the serene neighborhood of Kiamunyi, Nakuru, this home offers a peaceful retreat from the bustling city life while still providing convenient access to amenities and the city center. At an affordable asking price of 5.9 Million Ksh, this spacious 3-bedroom home with its generous compound and convenient location offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of luxury, comfort, and tranquility.",
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking space",
+      },
+    ],
+  },
 ];
 
 export const ForSale = [
@@ -681,7 +752,6 @@ export const ForSale = [
   {
     heading1: "Affordable Bungalow",
     heading2: "Kiamunyi, Nakuru",
-    name: "Affordable Bungalow",
     images: [
       "/BungalowSaleKiamunyiNakuru/1.jpeg",
       "/BungalowSaleKiamunyiNakuru/2.jpeg",
@@ -717,6 +787,140 @@ export const ForSale = [
       {
         icon: "/icons/parking-icon.png",
         name: "Parking",
+      },
+      {
+        icon: "/icons/garden-icon.png",
+        name: "Garden",
+      },
+    ],
+  },
+  {
+    heading1: "3-Bedroom Hidden Roof Bungalow",
+    heading2: "Kiamunyi, Nakuru",
+    images: [
+      "/huddenroofbungalow/1.jpeg",
+      "/huddenroofbungalow/2.jpeg",
+      "/huddenroofbungalow/3.jpeg",
+      "/huddenroofbungalow/4.jpeg",
+      "/huddenroofbungalow/5.jpeg",
+      "/huddenroofbungalow/6.jpeg",
+      "/huddenroofbungalow/7.jpeg",
+      "/huddenroofbungalow/8.jpeg",
+    ],
+    students: 130,
+    classes: 12,
+    price: "5.8M",
+    rating: 4.9,
+    type: "Buy",
+    propertyType: "owncompound",
+    bath: 2,
+    sf: 3200,
+    beds: 3,
+    id: 3,
+    description:
+      "Discover a haven of comfort and sophistication with this impeccably designed 3-bedroom hidden roof bungalow nestled in an upcoming gated community in the serene neighborhood of Kiamunyi, Nakuru. This spacious abode offers a blend of modern amenities, a tranquil atmosphere, and a secure environment, providing an ideal retreat for families seeking a luxurious and well-appointed home",
+    richDescription:
+      "Embrace a lifestyle of elegance and tranquility with this exquisite 3-bedroom hidden roof bungalow in Kiamunyi, Nakuru. This impeccably designed bungalow exudes an air of sophistication and warmth, offering a haven for families seeking a spacious and luxurious home. The bungalow's layout is designed for effortless living, with three well-appointed bedrooms, a modern kitchen that caters to all your culinary needs, and a serene balcony that offers panoramic views. The generous 40 x 80 plot provides ample outdoor space, allowing you to create a tranquil garden, host outdoor gatherings, or simply enjoy the fresh air and serenity of your surroundings. Situated in an upcoming gated community in the serene neighborhood of Kiamunyi, Nakuru, this bungalow offers a peaceful retreat from the bustling city life while still providing convenient access to amenities and the city center. The gated community ensures enhanced security and peace of mind, allowing you to enjoy the tranquility of your surroundings without worries. At an affordable asking price of 5.8 Million Ksh, this spacious 3-bedroom hidden roof bungalow with its generous plot and secure gated community offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of luxury, comfort, and tranquility",
+    points: [
+      "Spacious 3-bedroom hidden roof bungalow with ample living space",
+      "Serene balcony offering panoramic views and a breath of fresh air",
+      "Lush 40 x 80 plot offering ample outdoor space for landscaping and recreation",
+      "Affordable asking price of 5.8 Million",
+      "Upcoming gated community providing enhanced security and peace of mind",
+      "Convenient location in Kiamunyi, Nakuru",
+    ],
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking",
+      },
+      {
+        icon: "/icons/garden-icon.png",
+        name: "Garden",
+      },
+    ],
+  },
+  {
+    heading1: "3-Bedroom All-Ensuite Bungalows",
+    heading2: "Monarch Court, Barnabas, Nakuru",
+    images: [
+      "/3bedroom-ensuite-bungalows/1.jpeg",
+      "/3bedroom-ensuite-bungalows/2.jpeg",
+      "/3bedroom-ensuite-bungalows/3.jpeg",
+      "/3bedroom-ensuite-bungalows/4.jpeg",
+      "/3bedroom-ensuite-bungalows/5.jpeg",
+      "/3bedroom-ensuite-bungalows/6.jpeg",
+      "/3bedroom-ensuite-bungalows/7.jpeg",
+      "/3bedroom-ensuite-bungalows/8.jpeg",
+    ],
+    students: 130,
+    classes: 12,
+    price: "9M",
+    rating: 4.9,
+    type: "Buy",
+    propertyType: "owncompound",
+    bath: 2,
+    sf: 3200,
+    beds: 3,
+    id: 4,
+    description:
+      "Step into a world of refined elegance and security with these impeccably designed 3-bedroom all-ensuite bungalows nestled within the prestigious gated community of Monarch Court in Barnabas, Nakuru. These spacious abodes offer a blend of modern amenities, a tranquil atmosphere, and a secure environment, providing an ideal haven for families seeking a luxurious and well-appointed home.",
+    richDescription:
+      "Embrace a lifestyle of elegance and tranquility with this exquisite 3-bedroom hidden roof bungalow in Kiamunyi, Nakuru. This impeccably designed bungalow exudes an air of sophistication and warmth, offering a haven for families seeking a spacious and luxurious home. The bungalow's layout is designed for effortless living, with three well-appointed bedrooms, a modern kitchen that caters to all your culinary needs, and a serene balcony that offers panoramic views. The generous 40 x 80 plot provides ample outdoor space, allowing you to create a tranquil garden, host outdoor gatherings, or simply enjoy the fresh air and serenity of your surroundings. Situated in an upcoming gated community in the serene neighborhood of Kiamunyi, Nakuru, this bungalow offers a peaceful retreat from the bustling city life while still providing convenient access to amenities and the city center. The gated community ensures enhanced security and peace of mind, allowing you to enjoy the tranquility of your surroundings without worries. At an affordable asking price of 5.8 Million Ksh, this spacious 3-bedroom hidden roof bungalow with its generous plot and secure gated community offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of luxury, comfort, and tranquility",
+    points: [
+      "Spacious 3-bedroom all-ensuite bungalows with ample living space",
+      "Serene balconies offering panoramic views and a breath of fresh air",
+      "Secure gated community of Monarch Court providing enhanced security and peace of mind",
+      "Affordable asking price of 9 Million Ksh (Cash) or 9.5 Million Ksh (Installments)",
+      "Convenient location in Barnabas, Nakuru",
+    ],
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking",
+      },
+      {
+        icon: "/icons/garden-icon.png",
+        name: "Garden",
+      },
+    ],
+  },
+  {
+    heading1: "3-Bedroom Home",
+    heading2: "Kiamunyi, Nakuru",
+    beds: 3,
+    price: "5.9M",
+    rating: 4.9,
+    type: "Buy",
+    propertyType: "owncompound",
+    bath: 2,
+    sf: 3200,
+    id: 5,
+    images: [
+      "/3bedroomhomeKiamunyi5.9m/1.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/2.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/3.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/4.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/5.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/6.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/7.jpeg",
+      "/3bedroomhomeKiamunyi5.9m/8.jpeg",
+    ],
+    points: [
+      "Spacious 3-bedroom home with ample living space",
+      "Lush compound offering ample outdoor space for landscaping and recreation",
+      "Convenient location in Kiamunyi, Nakuru",
+      "Affordable asking price of 5.9 Million Ksh",
+    ],
+    time: Date.now() - 259200000,
+    description:
+      "Discover a haven of comfort and sophistication with this impeccably designed 3-bedroom home nestled in the serene neighborhood of Kiamunyi, Nakuru. This spacious abode offers a blend of modern amenities, a tranquil atmosphere, and a convenient location, providing an ideal retreat for families seeking a luxurious and well-appointed home.",
+    richDescription:
+      "Embrace a lifestyle of elegance and tranquility with this exquisite 3-bedroom home in Kiamunyi, Nakuru. This impeccably designed home exudes an air of sophistication and warmth, offering a haven for families seeking a spacious and luxurious living space. The home's layout is designed for effortless living, with three well-appointed bedrooms, a modern kitchen that caters to all your culinary needs, and a serene balcony that offers panoramic views. The generous compound provides ample outdoor space, allowing you to create a tranquil garden, host outdoor gatherings, or simply enjoy the fresh air and serenity of your surroundings. Situated in the serene neighborhood of Kiamunyi, Nakuru, this home offers a peaceful retreat from the bustling city life while still providing convenient access to amenities and the city center. At an affordable asking price of 5.9 Million Ksh, this spacious 3-bedroom home with its generous compound and convenient location offers exceptional value for your money. Contact us today to schedule a viewing and experience the epitome of luxury, comfort, and tranquility.",
+    amenities: [
+      {
+        icon: "/icons/parking-icon.png",
+        name: "Parking space",
       },
       {
         icon: "/icons/garden-icon.png",
