@@ -200,7 +200,10 @@ const Footer = () => {
                   href="https://charlesmwaniki.com/"
                   className=" opacity-75  text-center md:text-start text-sm text-gray-400"
                 >
-                  Developed by charlesmwaniki.com
+                  Developed by{" "}
+                  <a className="text-purple-500 underline">
+                    charlesmwaniki.com
+                  </a>
                 </Link>
               </div>
             </div>
