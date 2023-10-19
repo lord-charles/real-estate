@@ -182,15 +182,7 @@ const Footer = () => {
 
             {/* All Rights Reserved */}
             <div className="py-4 md:flex justify-between  items-center">
-              <div className="flex justify-center">
-                <Link
-                  href="https://charlesmwaniki.com/"
-                  className=" opacity-75  text-center md:text-start text-sm text-gray-400"
-                >
-                  Developed by charlesmwaniki.com
-                </Link>
-              </div>
-              <div className="flex gap-5 mt-5 md:mt-0 justify-center md:justify-start">
+              <div className="flex gap-5 mb-2 md:mt-0 justify-center md:justify-start">
                 <h4 className="text-gray-400 opacity-75 text-sm font-normal">
                   <Link href="/" target="_blank">
                     Privacy policy
@@ -202,6 +194,14 @@ const Footer = () => {
                     Terms & conditions
                   </Link>
                 </h4>
+              </div>
+              <div className="flex justify-center">
+                <Link
+                  href="https://charlesmwaniki.com/"
+                  className=" opacity-75  text-center md:text-start text-sm text-gray-400"
+                >
+                  Developed by charlesmwaniki.com
+                </Link>
               </div>
             </div>
           </div>
