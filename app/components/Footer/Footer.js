@@ -72,12 +72,12 @@ const Footer = () => {
                       type="email"
                       placeholder="Email address"
                     />
-                    <button
-                      className="px-4 py-3 font-medium text-white rounded-r bg-lime-600 focus:outline-none"
+                    <div
+                      className="px-4 py-3 font-medium text-white rounded-r bg-lime-600 cursor-pointer"
                       onClick={() => toast.success("success")}
                     >
                       Subscribe
-                    </button>
+                    </div>
                   </form>
                 </div>
               </div>
